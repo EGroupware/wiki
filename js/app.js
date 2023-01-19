@@ -7,7 +7,9 @@
  * @license https://opensource.org/licenses/gpl-license.php GPL - GNU General Public License
  */
 
-import {AppJS} from "../../api/js/jsapi/app_base.js";
+// conditional import AppJS for 23.1+, but not for non-module include of 21.1 and before, as an import gives a JS syntax error if not in module context
+//import {AppJS} from "../../api/js/jsapi/app_base.js";
+(typeof window.$LAB === 'undefined' ? import("../../api/js/jsapi/app_base.js") : Promise.resolve()).then(() => {
 /**
  * Javascript for wiki
  *
@@ -81,3 +83,5 @@ app.classes.wiki = AppJS.extend(
 		}
 	}
 });
+
+}); // conditional import AppJS
