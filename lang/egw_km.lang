@@ -1,0 +1,126 @@
+(don't offer the possibility)	admin	km	កុំផ្តល់លទ្ធភាព
+<em>but</em> display at least this many entries in recentchanges and other subscription lists:	wiki	km	<em>ប៉ុន្តែ</em> បង្ហាញយ៉ាងហោចណាស់ធាតុជាច្រើននេះនៅក្នុង RecentChanges និងបញ្ជីជាវផ្សេងទៀត៖
+add document to category	wiki	km	បន្ថែមឯកសារទៅប្រភេទ
+added	wiki	km	បន្ថែម
+administration features are disabled for this wiki.	wiki	km	មុខងាររដ្ឋបាលត្រូវបានបិទសម្រាប់វិគីនេះ។
+admins	wiki	km	អ្នកគ្រប់គ្រង
+after how many days should old versions of a page be removed (0 for never)	admin	km	បន្ទាប់ពីប៉ុន្មានថ្ងៃដែលកំណែចាស់នៃទំព័រមួយគួរតែត្រូវបានដកចេញ 0 = មិនដែល។
+allow anonymous access	admin	km	អនុញ្ញាតឱ្យចូលប្រើអនាមិក
+allow creating new pages (blank for all)	wiki	km	អនុញ្ញាតឱ្យបង្កើតទំព័រថ្មី (ទទេសម្រាប់ទាំងអស់)
+anonymous password	admin	km	ពាក្យសម្ងាត់អនាមិក
+anonymous session type	admin	km	ប្រភេទវគ្គអនាមិក
+anonymous username	admin	km	ឈ្មោះអ្នកប្រើប្រាស់អនាមិក
+automatically convert pages with wiki-syntax to richtext (if edited)?	admin	km	បំប្លែង​ទំព័រ​ដោយ​ស្វ័យ​ប្រវត្តិ​ជាមួយ​វាក្យសម្ព័ន្ធ​វីគី​ទៅ​ជា​អត្ថបទ​សម្បូរ​បែប ប្រសិន​បើ​បាន​កែសម្រួល?
+block	wiki	km	ទប់ស្កាត់
+block / unblock hosts	common	km	ប្លុក | ឈប់រារាំងម៉ាស៊ីន
+blocked ip address ranges	wiki	km	ជួរអាសយដ្ឋាន IP ត្រូវបានរារាំង
+cancel without saving	wiki	km	បោះបង់ដោយមិនរក្សាទុក
+change notification	wiki	km	ផ្លាស់ប្តូរការជូនដំណឹង
+changed	wiki	km	បានផ្លាស់ប្តូរ
+changes by last author	wiki	km	ការផ្លាស់ប្តូរដោយអ្នកនិពន្ធចុងក្រោយ
+choose your current time here, so the server may figure out what time zone you are in.	wiki	km	ជ្រើសរើសពេលវេលាបច្ចុប្បន្នរបស់អ្នក។
+columns	wiki	km	ជួរឈរ
+compute difference	wiki	km	ភាពខុសគ្នានៃការគណនា
+converts the page to richtext	wiki	km	បំប្លែងទំព័រទៅជាអត្ថបទសម្បូរបែប
+current version	wiki	km	កំណែបច្ចុប្បន្ន
+default read permission	wiki	km	ការអនុញ្ញាតអានលំនាំដើម
+default read permissions for creating a new page	preferences	km	សិទ្ធិអានលំនាំដើមសម្រាប់ការបង្កើតទំព័រថ្មី។
+default write permission	preferences	km	ការអនុញ្ញាតសរសេរលំនាំដើម
+default write permissions for creating a new page	preferences	km	ការអនុញ្ញាតសរសេរលំនាំដើមសម្រាប់ការបង្កើតទំព័រថ្មី។
+deleted	wiki	km	បានលុប
+deletes this page	wiki	km	លុបទំព័រនេះ។
+difference between versions	wiki	km	ភាពខុសគ្នារវាងកំណែ
+differences in	wiki	km	ភាពខុសគ្នានៅក្នុង
+different languages can have different titles	wiki	km	ភាសាផ្សេងគ្នាអាចមានចំណងជើងខុសៗគ្នា
+document last modified	wiki	km	ឯកសារត្រូវបានកែប្រែចុងក្រោយ
+edit box	wiki	km	ប្រអប់កែសម្រួល
+edit this <em>archive version</em> of this document	wiki	km	កែសម្រួល<em>កំណែប័ណ្ណសារ</em> នៃឯកសារនេះ។
+edit this document	wiki	km	កែសម្រួលឯកសារនេះ។
+edit with preview	admin	km	កែសម្រួលជាមួយការមើលជាមុន
+editable	admin	km	អាចកែសម្រួលបាន។
+editing	wiki	km	ការកែសម្រួល
+emailaddress administrator	admin	km	អាសយដ្ឋានអ៊ីមែលរបស់អ្នកគ្រប់គ្រង
+enable free links	admin	km	បើកតំណឥតគិតថ្លៃ
+enable wiki links	admin	km	បើកតំណវីគី
+enter here the maximum number of entries to display in a document's history list.	wiki	km	ចំនួនអតិបរមានៃធាតុដែលត្រូវបង្ហាញក្នុងបញ្ជីប្រវត្តិរបស់ឯកសារ។
+enter here the number of days of edits to display on recentchanges or any other subscription list.  set this to zero if you wish to see all pages in recentchanges, regardless of how recently they were edited.	wiki	km	ចំនួនថ្ងៃសម្រាប់ការកែសម្រួលបង្ហាញនៅលើ RecentChanges ឬបញ្ជីជាវផ្សេងទៀតណាមួយ។ 0 = បង្ហាញទាំងអស់។
+enter ip address range in form <tt>12.*</tt>, <tt>34.56.*</tt>, or <tt>78.90.123.*</tt>	wiki	km	បញ្ចូលជួរអាសយដ្ឋាន IP ក្នុងទម្រង់ <tt>12.*</tt>, <tt>34.56.*</tt> ឬ <tt>78.90.123.*</tt>
+error creating temporary file.	wiki	km	កំហុសក្នុងការបង្កើតឯកសារបណ្តោះអាសន្ន។
+error writing to temporary file.	wiki	km	កំហុសក្នុងការសរសេរទៅឯកសារបណ្តោះអាសន្ន
+everyone	wiki	km	គ្រប់គ្នា
+find	wiki	km	ស្វែងរក
+history	wiki	km	ប្រវត្តិសាស្ត្រ
+history display should show <em>all</em> changes made by the latest author.  otherwise, show only the last change made.	wiki	km	ការបង្ហាញប្រវត្តិបង្ហាញពីការផ្លាស់ប្តូរ <em>ទាំងអស់</em> ដែលធ្វើឡើងដោយអ្នកនិពន្ធចុងក្រោយបង្អស់។ បើមិនដូច្នេះទេ បង្ហាញតែការផ្លាស់ប្តូរចុងក្រោយដែលបានធ្វើ។
+history lists	wiki	km	បញ្ជីប្រវត្តិសាស្ត្រ
+history of	wiki	km	ប្រវត្តិនៃ
+if a page i have read access to is changed, send a notification	wiki	km	ប្រសិនបើទំព័រដែលខ្ញុំបានចូលអានត្រូវបានផ្លាស់ប្តូរ សូមផ្ញើការជូនដំណឹង
+if a page i have write access to is changed, send a notification	wiki	km	ប្រសិនបើទំព័រដែលខ្ញុំមានសិទ្ធិសរសេរទៅត្រូវបានផ្លាស់ប្តូរ សូមផ្ញើការជូនដំណឹង
+if a page title matches this regular expression, send a notification.  you can look at title, name, lang, text using name: regex	wiki	km	ប្រសិនបើចំណងជើងទំព័រត្រូវនឹងកន្សោមធម្មតានេះ សូមផ្ញើការជូនដំណឹង។ អ្នកអាចមើលចំណងជើង ឈ្មោះ ភាសា អត្ថបទដោយប្រើឈ្មោះ៖ លំនាំ<br />ឧទាហរណ៍៖<br />ការផ្គូផ្គងឈ្មោះ៖ "ឈ្មោះ៖ សៀវភៅដៃ" ផ្គូផ្គងគ្រប់ទំព័រជាមួយសៀវភៅណែនាំក្នុងឈ្មោះ។ "name: ^Manual" ត្រូវគ្នានឹងគ្រប់ទំព័រដែលឈ្មោះ <em>ចាប់ផ្តើម</em> ជាមួយសៀវភៅដៃ ប៉ុន្តែមិនមែន OperationsManual ទេ។ "name: InfoLog|Addressbook" ត្រូវនឹងទំព័រណាមួយដែលឈ្មោះមាន InfoLog ឬសៀវភៅអាសយដ្ឋាន។ <br />ភាសាដែលត្រូវគ្នា៖ "lang: en|de" ត្រូវនឹងទំព័រភាសាអង់គ្លេស និងអាល្លឺម៉ង់។ <br /> កម្រិតខ្ពស់ (regex): "text: \b(word1|word2|word3)(?:\W+\w+){1,6}?\W+(word1|word2|word3)\b" ត្រូវនឹងទំព័រណាមួយ ដែលជាកន្លែងដែលពាក្យណាមួយក្នុងចំណោម 3 ពាក្យគឺ 1 ទៅ 6 ពាក្យដាច់ពីគ្នា។
+interwikiprefix	admin	km	បុព្វបទ InterWiki
+invalid page name.	wiki	km	ឈ្មោះទំព័រមិនត្រឹមត្រូវ!
+load	wiki	km	ផ្ទុក
+loads the named page in the given language, all change so far get lost !!!	wiki	km	ផ្ទុកទំព័រដែលមានឈ្មោះជាភាសាដែលបានជ្រើសរើស ការផ្លាស់ប្តូរទាំងអស់មកទល់ពេលនេះត្រូវបានបាត់បង់!
+lock / unlock pages	common	km	ចាក់សោ | ដោះសោទំព័រ
+locked	wiki	km	ចាក់សោ
+message to send	wiki	km	សារដែលត្រូវផ្ញើ
+name wiki home link	admin	km	ឈ្មោះតំណផ្ទះវីគី
+newer	wiki	km	ថ្មីជាង
+no never	admin	km	ទេ​មិន​ដែល​ទេ
+no only on request	admin	km	ទេ មានតែតាមការស្នើសុំប៉ុណ្ណោះ។
+not set	wiki	km	មិនបានកំណត់
+older	wiki	km	ចាស់ជាង
+on all pages	wiki	km	នៅលើទំព័រទាំងអស់។
+only if browser supports a richtext-editor	admin	km	លុះត្រាតែកម្មវិធីរុករកតាមអ៊ីនធឺណិតគាំទ្រកម្មវិធីនិពន្ធអត្ថបទសម្បូរបែប
+only on the first page	wiki	km	មានតែនៅលើទំព័រដំបូងប៉ុណ្ណោះ។
+page '%1' not found !!!	wiki	km	រកមិនឃើញទំព័រ '%1' ទេ!
+page content	wiki	km	មាតិកាទំព័រ
+pages i have read access	wiki	km	ទំព័រដែលខ្ញុំបានចូលអាន
+pages i have write access	wiki	km	ទំព័រដែលខ្ញុំមានសិទ្ធិសរសេរ
+pages that match this regular expression	wiki	km	ទំព័រដែលត្រូវនឹងកន្សោមធម្មតានេះ។
+person who changed the page	wiki	km	អ្នកដែលបានផ្លាស់ប្តូរទំព័រ
+please contact the %1administrator%2 for assistance.	wiki	km	សូមទាក់ទង%1Administrator%2 សម្រាប់ជំនួយ។
+preview	wiki	km	មើលជាមុន
+preview of current version	wiki	km	ការមើលជាមុននៃកំណែបច្ចុប្បន្ន
+rate control / ip blocking disabled	wiki	km	ការត្រួតពិនិត្យអត្រាការប្រាក់ | ការទប់ស្កាត់ IP ត្រូវបានបិទ
+readable by	wiki	km	អាចអានបានដោយ
+readonly	admin	km	អាច​បាន​តែ​អាន
+rebuild links	wiki	km	បង្កើតតំណឡើងវិញ
+recent changes	wiki	km	ការផ្លាស់ប្តូរថ្មីៗ
+renames page to the given name and language	wiki	km	ប្តូរឈ្មោះទំព័រទៅជាឈ្មោះ និងភាសាដែលបានផ្តល់ឱ្យ
+richtext	wiki	km	អត្ថបទសម្បូរបែប
+rows	wiki	km	ជួរដេក
+save the changes and exit	wiki	km	រក្សាទុកការផ្លាស់ប្តូរហើយចាកចេញ
+saves and continues editing	wiki	km	រក្សាទុក និងបន្តកែសម្រួល
+search for	wiki	km	ស្វែងរក
+see complete list (%1 entries)	wiki	km	មើលបញ្ជីពេញលេញ ធាតុ%1
+show a search	wiki	km	បង្ហាញការស្វែងរក
+show the title of the wiki page	wiki	km	បង្ហាញចំណងជើងនៃទំព័រវីគី
+summary	wiki	km	សង្ខេប
+summary of change	wiki	km	សេចក្តីសង្ខេបនៃការផ្លាស់ប្តូរ
+the search returned no result!	wiki	km	ការ​ស្វែងរក​មិន​បាន​លទ្ធផល​ទេ!
+this page can not be edited.	wiki	km	ទំព័រនេះមិនអាចកែសម្រួលបានទេ!
+twin pages	wiki	km	ទំព័រភ្លោះ
+unblock	wiki	km	ឈប់ទប់ស្កាត់
+updates the preview	wiki	km	ធ្វើបច្ចុប្បន្នភាពការមើលជាមុន
+upload directory for pasted or dragged in images in egroupware vfs (filemanager).	wiki	km	ផ្ទុកឡើងបញ្ជីសម្រាប់បិទភ្ជាប់ ឬអូសក្នុងរូបភាពក្នុង EGroupware VFS (កម្មវិធីគ្រប់គ្រងឯកសារ)។
+url of the upload directory	admin	km	URL នៃ​បញ្ជី​ផ្ទុក​ឡើង
+use this module for displaying wiki-pages	wiki	km	ប្រើម៉ូឌុលនេះសម្រាប់បង្ហាញទំព័រវិគី
+users	wiki	km	អ្នកប្រើប្រាស់
+view document history	wiki	km	មើលប្រវត្តិឯកសារ
+visit %1 to set your user name	wiki	km	ចូលទៅកាន់ %1 ដើម្បីកំណត់ឈ្មោះអ្នកប្រើប្រាស់របស់អ្នក។
+warning: since you started editing, this document has been changed by someone else.  please merge your edits into the current version of this document.	wiki	km	ការព្រមាន៖ ឯកសារត្រូវបានផ្លាស់ប្តូរដោយអ្នកផ្សេងចាប់តាំងពីអ្នកចាប់ផ្តើមកែសម្រួល។ បញ្ចូលការកែសម្រួលរបស់អ្នកទៅក្នុងកំណែបច្ចុប្បន្ននៃឯកសារនេះ។
+who should be able to edit this page	wiki	km	តើអ្នកណាគួរអាចកែសម្រួលទំព័រនេះ។
+who should be able to read this page	wiki	km	តើអ្នកណាគួរអានទំព័រនេះ។
+wiki	common	km	វីគី
+wiki administration	wiki	km	ការគ្រប់គ្រងវីគី
+wiki menu	wiki	km	ម៉ឺនុយវិគី
+wiki startpage	wiki	km	ទំព័រចាប់ផ្តើមវីគី
+writable by	wiki	km	សរសេរដោយ
+yes always	admin	km	បាទ ជានិច្ច
+yes with navbar	admin	km	បាទជាមួយ navbar
+you have been denied access to this site.	wiki	km	អ្នកមិនមានសិទ្ធិចូលប្រើគេហទំព័រនេះទេ។
+you have entered an invalid user name.	wiki	km	អ្នក​បាន​បញ្ចូល​ឈ្មោះ​អ្នក​ប្រើ​មិន​ត្រឹមត្រូវ។
+you have exeeded the number of pages you are allowed to visit in a given period of time. please return later.	wiki	km	អ្នកបានលើសចំនួនទំព័រដែលអ្នកត្រូវបានអនុញ្ញាតឱ្យចូលមើលក្នុងរយៈពេលដែលបានកំណត់។ សូមត្រឡប់មកវិញនៅពេលក្រោយ។
+you have no rights to view wiki content !!!	wiki	km	អ្នកគ្មានសិទ្ធិមើលខ្លឹមសារវីគីទេ!
+your changes	wiki	km	ការផ្លាស់ប្តូររបស់អ្នក។
+your user name is "%1".	wiki	km	ឈ្មោះអ្នកប្រើរបស់អ្នកគឺ "%1" ។
