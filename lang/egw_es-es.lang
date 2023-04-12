@@ -5,15 +5,17 @@ added	wiki	es-es	Añadido
 administration features are disabled for this wiki.	wiki	es-es	Las características de administración estás desactivadas para este wiki
 admins	wiki	es-es	administradores
 after how many days should old versions of a page be removed (0 for never)	admin	es-es	¿Después de cuántos días deben borrarse las versiones antiguas de una página (0 para nunca)?
-allow anonymous access	admin	es-es	permitir acceso anónimo
+allow anonymous access	admin	es-es	Permitir acceso anónimo
+allow creating new pages (blank for all)	wiki	es-es	Permitir crear nuevas páginas (en blanco para todas)
 anonymous password	admin	es-es	Contraseña anónimo
 anonymous session type	admin	es-es	Tipo de sesión anónimo
-anonymous username	admin	es-es	usuario anónimo
+anonymous username	admin	es-es	Usuario anónimo
 automatically convert pages with wiki-syntax to richtext (if edited)?	admin	es-es	¿Convertir páginas automáticamente con sintaxis de wiki a texto enriquecido (si se editan)?
 block	wiki	es-es	Bloquear
 block / unblock hosts	common	es-es	Bloquear / desbloquear máquinas
 blocked ip address ranges	wiki	es-es	Rangos de direcciones IP bloqueadas
 cancel without saving	wiki	es-es	Cancelar sin guardar
+change notification	wiki	es-es	Notificación de cambio
 changed	wiki	es-es	Modificada
 changes by last author	wiki	es-es	Cambios por el último autor
 choose your current time here, so the server may figure out what time zone you are in.	wiki	es-es	Elija aquí su hora actual, para que el servidor pueda calcular su zona horaria
@@ -21,8 +23,10 @@ columns	wiki	es-es	Columnas
 compute difference	wiki	es-es	Calcular diferencia
 converts the page to richtext	wiki	es-es	Convierte la página a texto enriquecido
 current version	wiki	es-es	Versión actual
-deleted	wiki	es-es	Borrada
-deletes this page	wiki	es-es	Borra esta página
+default read permission	wiki	es-es	Permiso de lectura predeterminado
+default write permission	preferences	es-es	Permiso de escritura predeterminado
+deleted	wiki	es-es	Suprimida
+deletes this page	wiki	es-es	Suprime esta página
 difference between versions	wiki	es-es	Diferencia entre versiones
 differences in	wiki	es-es	Diferencias en
 different languages can have different titles	wiki	es-es	Puede haber distintos títulos en distintos idiomas
@@ -31,7 +35,7 @@ edit box	wiki	es-es	Recuadro de edición
 edit this <em>archive version</em> of this document	wiki	es-es	Editar esta <em>VERSION DEL ARCHIVO</em> de este documento
 edit this document	wiki	es-es	Editar este documento
 edit with preview	admin	es-es	Editar con vista previa
-editable	admin	es-es	editable
+editable	admin	es-es	Editable
 editing	wiki	es-es	Edición de
 emailaddress administrator	admin	es-es	Correo del administrador
 enable free links	admin	es-es	Activar enlaces libres
@@ -53,6 +57,7 @@ load	wiki	es-es	Cargar
 loads the named page in the given language, all change so far get lost !!!	wiki	es-es	Carga la página nombrada en el idioma indicado, por lo que ¡¡todos los cambios se pierden!!
 lock / unlock pages	common	es-es	Bloquear / desbloquear páginas
 locked	wiki	es-es	Bloqueada
+message to send	wiki	es-es	Mensaje a enviar
 name wiki home link	admin	es-es	nombre del enlace de la página de inicio del wiki
 newer	wiki	es-es	Más reciente
 no never	admin	es-es	No, nunca
@@ -64,14 +69,16 @@ only if browser supports a richtext-editor	admin	es-es	Sólo si el navegador sop
 only on the first page	wiki	es-es	sólo en la primera página
 page '%1' not found !!!	wiki	es-es	¡No se encontró la página '%1'!
 page content	wiki	es-es	Contenido de la página
-path of the upload directory (has to be writable by the webserver!)	admin	es-es	Ruta al directorio de subir ficheros (el servidor web debe tener derecho de escritura)
-picture upload via richtext editor (leave the upload directory empty to disable the upload)	admin	es-es	Subir ficheros con el editor de texto enriquecido (dejar el directorio de subir en blanco para desactivar)
+pages i have read access	wiki	es-es	Páginas a las que tengo acceso de lectura
+pages i have write access	wiki	es-es	Páginas a las que tengo acceso de escritura
+person who changed the page	wiki	es-es	Persona que cambió la página
 please contact the %1administrator%2 for assistance.	wiki	es-es	Por favor, póngase en contacto con el %1Administrator%2 para obtener ayuda.
 preview	wiki	es-es	Vista previa
 preview of current version	wiki	es-es	Vista previa de la versión actual
 rate control / ip blocking disabled	wiki	es-es	El control de transferencia o bloqueo de IP está desactivado
 readable by	wiki	es-es	De lectura para
 readonly	admin	es-es	sólo lectura
+rebuild links	wiki	es-es	Reconstruir enlaces
 recent changes	wiki	es-es	Cambios recientes
 renames page to the given name and language	wiki	es-es	Renombra la página al nombre e idioma indicados
 richtext	wiki	es-es	Texto enriquecido
