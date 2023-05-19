@@ -306,7 +306,7 @@ class soWikiPage
 	}
 
 	/**
-	 * Write the a page's contents to the db and sets the supercede-time of the prev. version
+	 * Write page's contents to the db and sets the supercede-time of the prev. version
 	 *
 	 * The caller is responsible for performing locking.
 	 */
@@ -317,7 +317,7 @@ class soWikiPage
 		{
 			$arr[$dbname] = $this->$name;
 		}
-		// Prepend , for easer LIKEing
+		// Prepend , for easier LIKEing
 		$arr['wiki_readable'] = ','.(is_array($arr['wiki_readable'])?implode(',',$arr['wiki_readable']):'_0').',';
 		$arr['wiki_writable'] = ','.(is_array($arr['wiki_writable'])?implode(',',$arr['wiki_writable']):'_0').',';
 		if (is_null($arr['wiki_comment'])) $arr['wiki_comment'] = '';	// can not be null
@@ -326,8 +326,20 @@ class soWikiPage
 
 		$this->db->insert($this->PgTbl,$arr,false,__LINE__,__FILE__);
 
-		if($this->version > 1)	// set supercede-time of prev. version
+		if($this->version > 1)
 		{
+			// we need to update ACL in all previous versions, otherwise they are still accessible on ACL changes
+			// that might be a problem, when widening ACL after cleaning up a page, but no way to guess the users intent ...
+			// I'm also updating all language versions with the ACL, so ACL is effectively independent of language and version
+			$this->db->update($this->PgTbl,array(
+				'wiki_readable' => $arr['wiki_readable'],
+				'wiki_writable' => $arr['wiki_writable'],
+			),array(
+				'wiki_id' => $this->wiki_id,
+				'wiki_name' => $this->name,
+			),__LINE__,__FILE__);
+
+			// set supercede-time of prev. version
 			$this->db->update($this->PgTbl,array(
 					'wiki_supercede' => $this->supercede
 				),array(

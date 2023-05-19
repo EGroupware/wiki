@@ -156,7 +156,7 @@ class wiki_bo extends wiki_so
 	{
 		//error_log(__METHOD__. " Values to save (".print_r($values,True).")");
 		$page = $this->page($values['name'],$values['lang']);
-		$page->version = -1; // ensures the lates version is fetched TODO: maybe use that to fetch $values[version] and control optimistic locking
+		$page->version = -1; // ensures the latest version is fetched TODO: maybe use that to fetch $values[version] and control optimistic locking
 		//error_log(__METHOD__.' PageObject:'.array2string($page));
 		if ($page->read() !== False)	// !== as an empty page would return '' == False
 		{
