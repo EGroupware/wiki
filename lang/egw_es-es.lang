@@ -24,7 +24,9 @@ compute difference	wiki	es-es	Calcular diferencia
 converts the page to richtext	wiki	es-es	Convierte la página a texto enriquecido
 current version	wiki	es-es	Versión actual
 default read permission	wiki	es-es	Permiso de lectura predeterminado
+default read permissions for creating a new page	preferences	es-es	Permisos de lectura predeterminados para crear una nueva página
 default write permission	preferences	es-es	Permiso de escritura predeterminado
+default write permissions for creating a new page	preferences	es-es	Permisos de escritura predeterminados para crear una nueva página
 deleted	wiki	es-es	Suprimida
 deletes this page	wiki	es-es	Suprime esta página
 difference between versions	wiki	es-es	Diferencia entre versiones
@@ -51,6 +53,8 @@ history	wiki	es-es	historial
 history display should show <em>all</em> changes made by the latest author.  otherwise, show only the last change made.	wiki	es-es	El historial debe mostrar <em>todos</em> los cambios realizados por el último autor. De lo contrario, mostrar sólo el último cambio.
 history lists	wiki	es-es	Listas de historial
 history of	wiki	es-es	Historial de
+if a page i have read access to is changed, send a notification	wiki	es-es	Si se cambia una página a la que tengo acceso de lectura, enviar una notificación
+if a page i have write access to is changed, send a notification	wiki	es-es	Si se cambia una página a la que tengo acceso de escritura, enviar una notificación
 interwikiprefix	admin	es-es	Prefijo InterWiki
 invalid page name.	wiki	es-es	El nombre de la página no es válido
 load	wiki	es-es	Cargar
@@ -71,6 +75,7 @@ page '%1' not found !!!	wiki	es-es	¡No se encontró la página '%1'!
 page content	wiki	es-es	Contenido de la página
 pages i have read access	wiki	es-es	Páginas a las que tengo acceso de lectura
 pages i have write access	wiki	es-es	Páginas a las que tengo acceso de escritura
+pages that match this regular expression	wiki	es-es	Páginas que coinciden con esta expresión regular
 person who changed the page	wiki	es-es	Persona que cambió la página
 please contact the %1administrator%2 for assistance.	wiki	es-es	Por favor, póngase en contacto con el %1Administrator%2 para obtener ayuda.
 preview	wiki	es-es	Vista previa
