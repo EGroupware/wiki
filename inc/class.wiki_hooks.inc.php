@@ -169,7 +169,7 @@ $$Content$$'
 	 */
 	public static function sidebox_menu($hook_data)
 	{
-		unset($hook_data);	// not used, but required by function signature
+		$location = is_array($hook_data) ? $hook_data['location'] : $hook_data;
 
 		$appname = 'wiki';
 		$config = Api\Config::read($appname);
@@ -182,7 +182,7 @@ $$Content$$'
 		);
 		display_sidebox($appname,$menu_title,$file);
 
-		if ($GLOBALS['egw_info']['user']['apps']['admin'])
+		if($GLOBALS['egw_info']['user']['apps']['admin'] && $location == "admin")
 		{
 			$menu_title = lang('Wiki Administration');
 			$file = Array(
