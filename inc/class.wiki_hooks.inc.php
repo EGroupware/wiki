@@ -173,15 +173,16 @@ $$Content$$'
 
 		$appname = 'wiki';
 		$config = Api\Config::read($appname);
-		$menu_title = lang('Wiki Menu');
-		$file = Array(
-
-			'Wiki startpage' => $GLOBALS['egw']->link('/index.php', ['menuaction' => 'wiki.wiki_ui.view', 'page' => $config['wikihome'] ?? 'eGroupWare']),
-			'Recent Changes' => $GLOBALS['egw']->link('/wiki/index.php','page=RecentChanges'),
-			'Add' => $GLOBALS['egw']->link('/index.php', ['menuaction' => 'wiki.wiki_ui.edit', 'page' => lang('New')]),
-		);
-		display_sidebox($appname,$menu_title,$file);
-
+		display_sidebox($appname, lang('Wiki startpage'), [
+			[
+				'link' => $GLOBALS['egw']->link('/index.php', [
+					'menuaction' => 'wiki.wiki_ui.view',
+					'page'       => $config['wikihome'] ?? 'eGroupWare']),
+			]]);
+		display_sidebox($appname, lang('Recent Changes'), [
+			[
+				'link' => $GLOBALS['egw']->link('/wiki/index.php', 'page=RecentChanges'),
+			]]);
 		if($GLOBALS['egw_info']['user']['apps']['admin'] && $location == "admin")
 		{
 			$menu_title = lang('Wiki Administration');
