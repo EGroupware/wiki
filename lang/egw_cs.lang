@@ -3,9 +3,9 @@
 add document to category	wiki	cs	Přidat dokument do kategorie
 added	wiki	cs	Přidáno
 administration features are disabled for this wiki.	wiki	cs	Administrační funkce jsou v této wiki zakázány.
-admins	wiki	cs	administrátoři
 after how many days should old versions of a page be removed (0 for never)	admin	cs	Po kolika dnech mají být staré verze stránek smazány (0 znamená nikdy)
 allow anonymous access	admin	cs	Povolit anonymní přístup
+allow creating new pages (blank for all)	wiki	cs	Povolit vytváření nových stránek (prázdné pro všechny)
 anonymous password	admin	cs	Anonymní heslo
 anonymous session type	admin	cs	Typ anonymní relace
 anonymous username	admin	cs	Anonymní uživatelské jméno
@@ -14,6 +14,7 @@ block	wiki	cs	Zablokovat
 block / unblock hosts	common	cs	Zablokovat / Odblokovat počítače
 blocked ip address ranges	wiki	cs	Rozsahy blokovaných IP adres
 cancel without saving	wiki	cs	Ukončit bez uložení
+change notification	wiki	cs	Oznámení o změně
 changed	wiki	cs	Změněno
 changes by last author	wiki	cs	Změny posledního autora
 choose your current time here, so the server may figure out what time zone you are in.	wiki	cs	Zvolte svůj aktuální čas, aby server mohl zjistit v jaké jste časové zóně.
@@ -21,6 +22,10 @@ columns	wiki	cs	Sloupce
 compute difference	wiki	cs	Spočítat rozdíl
 converts the page to richtext	wiki	cs	Konvertovat stránku do richtextu
 current version	wiki	cs	Aktuální verze
+default read permission	wiki	cs	Výchozí oprávnění ke čtení
+default read permissions for creating a new page	preferences	cs	Výchozí oprávnění ke čtení pro vytvoření nové stránky
+default write permission	preferences	cs	Výchozí oprávnění k zápisu
+default write permissions for creating a new page	preferences	cs	Výchozí oprávnění k zápisu pro vytvoření nové stránky
 deleted	wiki	cs	Smazáno
 deletes this page	wiki	cs	Smaže tuto stranu
 difference between versions	wiki	cs	Rozdíl mezi verzemi
@@ -47,12 +52,16 @@ history	wiki	cs	historie
 history display should show <em>all</em> changes made by the latest author.  otherwise, show only the last change made.	wiki	cs	Zobrazení historie by mělo ukázat <em>všechny</em> změny provedené posledním autorem. V opačném případě zobrazí jen poslední provedou změnu.
 history lists	wiki	cs	Seznamy historie
 history of	wiki	cs	Historie (čeho)
+if a page i have read access to is changed, send a notification	wiki	cs	Pokud dojde ke změně stránky, ke které mám přístup pro čtení, odešlete oznámení
+if a page i have write access to is changed, send a notification	wiki	cs	Pokud dojde ke změně stránky, ke které mám přístup pro zápis, odešlete oznámení
+if a page title matches this regular expression, send a notification.  you can look at title, name, lang, text using name: regex	wiki	cs	Pokud název stránky odpovídá tomuto regulárnímu výrazu, odešlete oznámení.  Můžete se podívat na název, jméno, jazyk, text pomocí vzoru name:<br />Příklady:<br />Odpovídající jméno: „name: Manual“ odpovídá každé stránce, jejíž název obsahuje slovo Manual.  „name: ^Manual“ odpovídá každé stránce, jejíž název <em>začíná</em> slovem Manual, ale ne OperationsManual.  „name: InfoLog|Addressbook“ odpovídá každé stránce, jejíž název obsahuje InfoLog nebo Addressbook.  <br />Odpovídající jazyk: „lang: en|de“ odpovídá anglickým a německým stránkám.  <br />Pokročilé (regex): „text: \b(slovo1|slovo2|slovo3)(?:\W+\w+){1,6}?\W+(slovo1|slovo2|slovo3)\b“ vyhledá všechny stránky, kde jsou některá ze tří slov od sebe vzdálena 1 až 6 slov.
 interwikiprefix	admin	cs	InterWikiPrefix
 invalid page name.	wiki	cs	Neplatný název stránky
 load	wiki	cs	Nahrát
 loads the named page in the given language, all change so far get lost !!!	wiki	cs	Nahraje uvedenou stránku v zadaném jazyce, všechny dosud provedené změny budou traceny !!!
 lock / unlock pages	common	cs	Zamknout / Odemknout stránky
 locked	wiki	cs	Uzamčeno
+message to send	wiki	cs	Zpráva k odeslání
 name wiki home link	admin	cs	Jméno odkazu na domovskou stránku wiki
 newer	wiki	cs	Novější
 no never	admin	cs	Ne, nikdy
@@ -64,14 +73,17 @@ only if browser supports a richtext-editor	admin	cs	Jen pokud prohlížeč podpo
 only on the first page	wiki	cs	jen na první straně
 page '%1' not found !!!	wiki	cs	Strana '%1' nebyla nalezena !!!
 page content	wiki	cs	Obsah stránky
-path of the upload directory (has to be writable by the webserver!)	admin	cs	Cesta k adresáři pro upload (webserver do ní musí mít právo zápisu!)
-picture upload via richtext editor (leave the upload directory empty to disable the upload)	admin	cs	Upload obrázku pomocí richtext editoru (adresář pro upload ponechte prázdný, chcete-li funkci zakázat)
+pages i have read access	wiki	cs	Stránky, ke kterým mám přístup pro čtení
+pages i have write access	wiki	cs	Stránky, ke kterým mám přístup pro zápis
+pages that match this regular expression	wiki	cs	Stránky, které odpovídají tomuto regulárnímu výrazu
+person who changed the page	wiki	cs	Osoba, která stránku změnila
 please contact the %1administrator%2 for assistance.	wiki	cs	Prosím, požádejte o pomoc %1Administrátora%2.
 preview	wiki	cs	Náhled
 preview of current version	wiki	cs	Náhled aktuální verze
 rate control / ip blocking disabled	wiki	cs	Kontrola hodnocení / Blokování IP zakázáno
 readable by	wiki	cs	Čitelné pro
 readonly	admin	cs	jen pro čtení
+rebuild links	wiki	cs	Obnovit odkazy
 recent changes	wiki	cs	Poslední změny
 renames page to the given name and language	wiki	cs	Přejmenuje stránku na zadaný název a jazyk
 richtext	wiki	cs	Richtext
@@ -89,6 +101,7 @@ this page can not be edited.	wiki	cs	Tuto stránku nelze editovat.
 twin pages	wiki	cs	Stránky dvojčata
 unblock	wiki	cs	Odblokovat
 updates the preview	wiki	cs	Aktualizuje náhled
+upload directory for pasted or dragged in images in egroupware vfs (filemanager).	wiki	cs	Adresář pro nahrávání vložených nebo přetažených obrázků ve Správci souborů EGroupware.
 url of the upload directory	admin	cs	URL adresáře pro upload
 use this module for displaying wiki-pages	wiki	cs	Použít tento modul pro zobrazování wiki stránek
 users	wiki	cs	uživatelé

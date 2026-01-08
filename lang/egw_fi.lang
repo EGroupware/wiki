@@ -3,9 +3,9 @@
 add document to category	wiki	fi	Lisää tiedosto kategoriaan
 added	wiki	fi	Lisätty
 administration features are disabled for this wiki.	wiki	fi	Ylläpitäjän ominaisuudet on poistettu käytöstä.
-admins	wiki	fi	Ylläpitäjät
 after how many days should old versions of a page be removed (0 for never)	admin	fi	Monenko päivän jälkeen vanhat versiot sivusta poistetaan (0 = ei koskaan)
 allow anonymous access	admin	fi	Salli kirjautumattomien käyttäjien pääsy
+allow creating new pages (blank for all)	wiki	fi	Salli uusien sivujen luominen (tyhjä kaikille)
 anonymous password	admin	fi	Kirjautumattomien käyttäjien salasana
 anonymous session type	admin	fi	Kirjautumattomien käyttäjien istunnon tyyppi
 anonymous username	admin	fi	Kirjautumattomien käyttäjien käyttäjätunnus
@@ -54,6 +54,7 @@ history lists	wiki	fi	Historia lista
 history of	wiki	fi	Historia
 if a page i have read access to is changed, send a notification	wiki	fi	Huomauta, jos sivua johon minulla on lukuoikeus muutetaan.
 if a page i have write access to is changed, send a notification	wiki	fi	Huomauta, jos sivua johon minulla on kirjoitusoikeus muutetaan.
+if a page title matches this regular expression, send a notification.  you can look at title, name, lang, text using name: regex	wiki	fi	Jos sivun otsikko vastaa tätä säännöllistä lauseketta, lähetä ilmoitus.  Voit tarkastella otsikkoa, nimeä, kieltä ja tekstiä käyttämällä nimeä: mallia<br />Esimerkkejä:<br />Nimen vastaavuus: ”name: Manual” vastaa jokaista sivua, jonka nimessä on Manual.  ”name: ^Manual” vastaa jokaista sivua, jonka nimi <em>alkaa</em> sanalla Manual, mutta ei OperationsManual.  ”name: InfoLog|Addressbook” vastaa jokaista sivua, jonka nimi sisältää sanan InfoLog tai Addressbook.  <br />Vastaava kieli: ”lang: en|de” vastaa englannin- ja saksankielisiä sivuja.  <br />Edistynyt (regex): ”text: \b(word1|word2|word3)(?:\W+\w+){1,6}?\W+(word1|word2|word3)\b” vastaa kaikkia sivuja, joissa jokin kolmesta sanasta on 1–6 sanan päässä toisistaan.
 interwikiprefix	admin	fi	InterWikiPrefix
 invalid page name.	wiki	fi	Virheellinen sivun nimi
 load	wiki	fi	Lataa
@@ -75,15 +76,14 @@ page content	wiki	fi	Sisältö
 pages i have read access	wiki	fi	Sivut, joihin on lukuoikeus
 pages i have write access	wiki	fi	Sivut, joihin on kirjoitusoikeus
 pages that match this regular expression	wiki	fi	Sivut, jotka sisältävät hakusanoja
-path of the upload directory (has to be writable by the webserver!)	admin	fi	Lataus hakemiston polku (palvelimella pitää olla kirjoitusoikeus)
 person who changed the page	wiki	fi	Henkilö joka editoi sivua
-picture upload via richtext editor (leave the upload directory empty to disable the upload)	admin	fi	Kuvien lataus richtext -editoriin (jätä tyhjäksi jos haluat estää kuvien lataamisen)
 please contact the %1administrator%2 for assistance.	wiki	fi	Ota yhteyttä %1 ylläpitäjään %2
 preview	wiki	fi	Esikatselu
 preview of current version	wiki	fi	Esikatsele nykyistä versiota
 rate control / ip blocking disabled	wiki	fi	Arvostelun hallinta / IP blokkaus estetty
 readable by	wiki	fi	Luettavissa
 readonly	admin	fi	Vain lukuoikeus
+rebuild links	wiki	fi	Rakenna linkit uudelleen
 recent changes	wiki	fi	Viimeisimmät muutokset
 renames page to the given name and language	wiki	fi	Nimeä uudelleen sivun annetulla nimellä ja kielellä
 richtext	wiki	fi	Richtext
@@ -101,6 +101,7 @@ this page can not be edited.	wiki	fi	Tätä sivua ei voida muokata.
 twin pages	wiki	fi	Kaksois-sivu
 unblock	wiki	fi	Poista esto
 updates the preview	wiki	fi	Päivitä esikatselua
+upload directory for pasted or dragged in images in egroupware vfs (filemanager).	wiki	fi	Lataa hakemisto EGroupware-tiedostonhallintaan liitetyille tai vedetyille kuville.
 url of the upload directory	admin	fi	Lataushakemiston URL
 use this module for displaying wiki-pages	wiki	fi	Käytä tätä modulia näyttäämään wiki-sivut
 users	wiki	fi	Käyttäjät

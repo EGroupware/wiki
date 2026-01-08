@@ -1,3 +1,20 @@
-admins	wiki	ja	管理者
+allow creating new pages (blank for all)	wiki	ja	新規ページの作成を許可（すべて空白）
+change notification	wiki	ja	変更通知
 current version	wiki	ja	現在の<BR>バージョン
+default read permission	wiki	ja	デフォルトの読み取り権限
+default read permissions for creating a new page	preferences	ja	新規ページ作成時のデフォルト読み取り権限
+default write permission	preferences	ja	デフォルトの書き込み権限
+default write permissions for creating a new page	preferences	ja	新規ページ作成時のデフォルト書き込み権限
+difference between versions	wiki	ja	バージョン間の差分
+if a page i have read access to is changed, send a notification	wiki	ja	読み取り権限のあるページが変更された場合、通知を送信
+if a page i have write access to is changed, send a notification	wiki	ja	書き込み権限のあるページが変更された場合、通知を送信
+if a page title matches this regular expression, send a notification.  you can look at title, name, lang, text using name: regex	wiki	ja	ページタイトルがこの正規表現に一致する場合、通知を送信します。タイトル、名前、言語、テキストは name: パターンで確認できます<br />例:<br />名前の一致: 「name: Manual」 は名前に Manual を含むすべてのページに一致します。 <br />言語一致: 「lang: en|de」 は英語とドイツ語のページに一致します。 <br />高度な検索（正規表現）：「text: \b(word1|word2|word3)(?:\W+\w+){1,6}?\W+(word1|word2|word3)\b」は、3つの単語のいずれかが1～6語離れているページをすべて検索します。
 load	wiki	ja	読み込み
+message to send	wiki	ja	送信メッセージ
+page content	wiki	ja	ページ内容
+pages i have read access	wiki	ja	読み取り権限のあるページ
+pages i have write access	wiki	ja	書き込み権限のあるページ
+pages that match this regular expression	wiki	ja	このページに一致するページ
+person who changed the page	wiki	ja	ページを変更した人物
+rebuild links	wiki	ja	リンクを再構築
+upload directory for pasted or dragged in images in egroupware vfs (filemanager).	wiki	ja	EGroupwareファイルマネージャーに貼り付けまたはドラッグした画像のアップロードディレクトリ。

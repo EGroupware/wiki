@@ -1,13 +1,19 @@
 added	wiki	id	Added
-admins	wiki	id	admins
+allow creating new pages (blank for all)	wiki	id	Izinkan pembuatan halaman baru (kosong untuk semua)
 anonymous password	admin	id	Anonymous password
 anonymous username	admin	id	anonymous username
 block	wiki	id	Block
+change notification	wiki	id	Pemberitahuan perubahan
 changed	wiki	id	Changed
 columns	wiki	id	Columns
 compute difference	wiki	id	Compute Difference
 current version	wiki	id	Current Version
+default read permission	wiki	id	Izin baca default
+default read permissions for creating a new page	preferences	id	Izin baca default untuk membuat halaman baru
+default write permission	preferences	id	Izin tulis default
+default write permissions for creating a new page	preferences	id	Izin tulis default untuk membuat halaman baru
 deleted	wiki	id	Deleted
+difference between versions	wiki	id	Perbedaan antara versi
 differences in	wiki	id	Differences in
 edit box	wiki	id	Edit box
 editable	admin	id	editable
@@ -18,17 +24,26 @@ find	wiki	id	Find
 history	wiki	id	history
 history lists	wiki	id	History lists
 history of	wiki	id	History of
+if a page i have read access to is changed, send a notification	wiki	id	Jika halaman yang saya miliki akses baca diubah, kirim pemberitahuan
+if a page i have write access to is changed, send a notification	wiki	id	Jika halaman yang saya miliki akses tulis diubah, kirim pemberitahuan
+if a page title matches this regular expression, send a notification.  you can look at title, name, lang, text using name: regex	wiki	id	Jika judul halaman cocok dengan ekspresi reguler ini, kirim pemberitahuan. Anda dapat memeriksa judul, nama, bahasa, teks menggunakan pola nama:<br />Contoh:<br />Mencocokkan nama: “name: Manual” mencocokkan setiap halaman yang memiliki Manual dalam namanya.  “name: ^Manual” cocok dengan setiap halaman di mana nama <em>dimulai</em> dengan Manual, tetapi bukan OperationsManual. “name: InfoLog|Addressbook” cocok dengan setiap halaman di mana nama mengandung InfoLog atau Addressbook.  <br />Mencocokkan bahasa: “lang: en|de” cocok dengan halaman dalam bahasa Inggris dan Jerman.  <br />Lanjutan (regex): “text: \b(word1|word2|word3)(?:\W+\w+){1,6}?\W+(word1|word2|word3)\b” mencocokkan halaman mana pun di mana salah satu dari 3 kata tersebut berjarak 1 hingga 6 kata.
 interwikiprefix	admin	id	InterWikiPrefix
 load	wiki	id	Load
 locked	wiki	id	Locked
+message to send	wiki	id	Pesan yang akan dikirim
 newer	wiki	id	Newer
 no never	admin	id	No never
 not set	wiki	id	not set
 older	wiki	id	Older
 page content	wiki	id	Page Content
+pages i have read access	wiki	id	Halaman yang saya miliki akses baca
+pages i have write access	wiki	id	Halaman yang saya miliki akses tulis
+pages that match this regular expression	wiki	id	Halaman yang cocok dengan ekspresi reguler ini
+person who changed the page	wiki	id	Orang yang mengubah halaman
 preview	wiki	id	Preview
 readable by	wiki	id	Readable by
 readonly	admin	id	readonly
+rebuild links	wiki	id	Perbarui tautan
 recent changes	wiki	id	Recent Changes
 richtext	wiki	id	Richtext
 rows	wiki	id	Rows
@@ -37,6 +52,7 @@ summary	wiki	id	Summary
 the search returned no result!	wiki	id	Pencarian tidak menghasilkan apapun!
 twin pages	wiki	id	Twin pages
 unblock	wiki	id	Unblock
+upload directory for pasted or dragged in images in egroupware vfs (filemanager).	wiki	id	Direktori unggah untuk gambar yang disalin atau diseret ke dalam EGroupware File Manager.
 users	wiki	id	users
 wiki	common	id	Wiki
 wiki administration	wiki	id	Wiki Administration

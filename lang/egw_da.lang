@@ -2,8 +2,8 @@
 add document to category	wiki	da	Tilføj dokument til kategori
 added	wiki	da	Tilføjet
 administration features are disabled for this wiki.	wiki	da	Administrations indstillingerne er deaktiveret for denne Wiki.
-admins	wiki	da	Administratore
 allow anonymous access	admin	da	Tillad anonym adgang
+allow creating new pages (blank for all)	wiki	da	Tillad oprettelse af nye sider (tomt for alle)
 anonymous password	admin	da	Anonym adgangskode
 anonymous session type	admin	da	Anonym session type
 anonymous username	admin	da	Anonym brugernavn
@@ -12,6 +12,7 @@ block	wiki	da	Spær
 block / unblock hosts	common	da	tilføj/fjern spærring af værter
 blocked ip address ranges	wiki	da	Spær IP adresse område
 cancel without saving	wiki	da	Annullere uden at gemme
+change notification	wiki	da	Ændringsmeddelelse
 changed	wiki	da	Ændret
 changes by last author	wiki	da	Ændringer fra sidste skribent
 choose your current time here, so the server may figure out what time zone you are in.	wiki	da	Vælg din nuværende tid her, så serveren fan finde ud af hvilken tidzone du er i.
@@ -19,6 +20,10 @@ columns	wiki	da	Kolonne
 compute difference	wiki	da	Udregn forskel
 converts the page to richtext	wiki	da	Konverter sidererne til richtext
 current version	wiki	da	eng
+default read permission	wiki	da	Standard læsetilladelse
+default read permissions for creating a new page	preferences	da	Standard læsetilladelser til oprettelse af en ny side
+default write permission	preferences	da	Standard skrivetilladelse
+default write permissions for creating a new page	preferences	da	Standard skrivetilladelser til oprettelse af en ny side
 deleted	wiki	da	slettet
 deletes this page	wiki	da	Slet denne side
 difference between versions	wiki	da	Forskellighed mellem versioner
@@ -42,20 +47,28 @@ history	wiki	da	historie
 history display should show <em>all</em> changes made by the latest author.  otherwise, show only the last change made.	wiki	da	Historie skal vise <em>alle</em> ændriger lave af den sidste skribent. Eller, kun vise den sidste ændring lavet.
 history lists	wiki	da	Historie liste
 history of	wiki	da	Historie af
+if a page i have read access to is changed, send a notification	wiki	da	Hvis en side, jeg har læseadgang til, ændres, skal der sendes en meddelelse
+if a page i have write access to is changed, send a notification	wiki	da	Hvis en side, jeg har skriveadgang til, ændres, skal der sendes en meddelelse
+if a page title matches this regular expression, send a notification.  you can look at title, name, lang, text using name: regex	wiki	da	Hvis en sidetitel matcher denne regulære udtryk, sendes en meddelelse.  Du kan se titel, navn, sprog og tekst ved hjælp af name: pattern<br />Eksempler:<br />Matching af et navn: »name: Manual« matcher alle sider med Manual i navnet.  »name: ^Manual« matcher alle sider, hvor navnet <em>starter</em> med Manual, men ikke OperationsManual.  »name: InfoLog|Addressbook« matcher alle sider, hvor navnet indeholder InfoLog eller Addressbook.  <br />Matchende sprog: »lang: en|de« matcher engelske og tyske sider.  <br />Avanceret (regex): »tekst: \b(ord1|ord2|ord3)(?:\W+\w+){1,6}?\W+(ord1|ord2|ord3)\b« matcher alle sider, hvor et af de 3 ord er 1 til 6 ord fra hinanden.
 load	wiki	da	Indlæs
 loads the named page in the given language, all change so far get lost !!!	wiki	da	Indlæser den navngivende side på det valgte sprog, alle ændringer op til nu er tabt!!!
 lock / unlock pages	common	da	lås/åben sider
 locked	wiki	da	Låst
+message to send	wiki	da	Besked, der skal sendes
 newer	wiki	da	Nyere
 not set	wiki	da	ikke set
 older	wiki	da	Ældre
 only if browser supports a richtext-editor	admin	da	Kun hvis browseren understøtter en richtext-editor
 page content	wiki	da	Side indhold
+pages i have read access	wiki	da	Sider, jeg har læseadgang til
+pages i have write access	wiki	da	Sider, jeg har skriveadgang til
+person who changed the page	wiki	da	Person, der har ændret siden
 please contact the %1administrator%2 for assistance.	wiki	da	Kontakt venligst %1systemadministratoren %2 for hjælp.
 preview	wiki	da	Snig vis
 preview of current version	wiki	da	Snig vis nuværende version
 readable by	wiki	da	Læsbar af
 readonly	admin	da	læs-kun
+rebuild links	wiki	da	Genopbyg links
 recent changes	wiki	da	Fornylige ændringer
 richtext	wiki	da	Richtext
 rows	wiki	da	Rækker
@@ -68,6 +81,7 @@ summary of change	wiki	da	resumé over ændringer
 this page can not be edited.	wiki	da	Denne side kan ikke redigeres
 unblock	wiki	da	Fjern spærring
 updates the preview	wiki	da	Opdatere snig visningen
+upload directory for pasted or dragged in images in egroupware vfs (filemanager).	wiki	da	Upload-mappe til indsatte eller trukkede billeder i EGroupware File Manager.
 use this module for displaying wiki-pages	wiki	da	Brug dette modul til at vise wiki-sider
 users	wiki	da	brugere
 view document history	wiki	da	Se dokument histroie

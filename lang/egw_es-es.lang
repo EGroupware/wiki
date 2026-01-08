@@ -3,7 +3,6 @@
 add document to category	wiki	es-es	Añadir documento a la categoría
 added	wiki	es-es	Añadido
 administration features are disabled for this wiki.	wiki	es-es	Las características de administración estás desactivadas para este wiki
-admins	wiki	es-es	administradores
 after how many days should old versions of a page be removed (0 for never)	admin	es-es	¿Después de cuántos días deben borrarse las versiones antiguas de una página (0 para nunca)?
 allow anonymous access	admin	es-es	Permitir acceso anónimo
 allow creating new pages (blank for all)	wiki	es-es	Permitir crear nuevas páginas (en blanco para todas)
@@ -55,6 +54,7 @@ history lists	wiki	es-es	Listas de historial
 history of	wiki	es-es	Historial de
 if a page i have read access to is changed, send a notification	wiki	es-es	Si se cambia una página a la que tengo acceso de lectura, enviar una notificación
 if a page i have write access to is changed, send a notification	wiki	es-es	Si se cambia una página a la que tengo acceso de escritura, enviar una notificación
+if a page title matches this regular expression, send a notification.  you can look at title, name, lang, text using name: regex	wiki	es-es	Si el título de una página coincide con esta expresión regular, envíe una notificación.  Puede consultar el título, el nombre, el idioma y el texto utilizando nombre: patrón<br />Ejemplos:<br />Coincidencia de un nombre: «nombre: Manual» coincide con todas las páginas que contienen Manual en el nombre.  «name: ^Manual» coincide con todas las páginas cuyo nombre <em>comienza</em> por Manual, pero no con OperationsManual.  «name: InfoLog|Addressbook» coincide con cualquier página cuyo nombre contenga InfoLog o Addressbook.  <br />Coincidencia de idioma: «lang: en|de» coincide con las páginas en inglés y alemán.  <br />Avanzado (expresión regular): «text: \b(word1|word2|word3)(?:\W+\w+){1,6}?\W+(word1|word2|word3)\b» coincide con cualquier página en la que cualquiera de las 3 palabras esté separada por entre 1 y 6 palabras.
 interwikiprefix	admin	es-es	Prefijo InterWiki
 invalid page name.	wiki	es-es	El nombre de la página no es válido
 load	wiki	es-es	Cargar
@@ -101,6 +101,7 @@ this page can not be edited.	wiki	es-es	Esta página no se puede editar
 twin pages	wiki	es-es	Páginas gemelas
 unblock	wiki	es-es	Desbloquear
 updates the preview	wiki	es-es	Actualiza la vista previa
+upload directory for pasted or dragged in images in egroupware vfs (filemanager).	wiki	es-es	Directorio de carga para imágenes pegadas o arrastradas en el Administrador de archivos de EGroupware.
 url of the upload directory	admin	es-es	URL del directorio para subir ficheros
 use this module for displaying wiki-pages	wiki	es-es	Use este módulo para mostrar las páginas del wiki
 users	wiki	es-es	usuarios

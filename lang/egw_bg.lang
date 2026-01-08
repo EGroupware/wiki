@@ -3,7 +3,6 @@
 add document to category	wiki	bg	Добавяне на документ към категорията
 added	wiki	bg	Добавен
 administration features are disabled for this wiki.	wiki	bg	Функциите на администрацията са деактивирани за тази wiki.
-admins	wiki	bg	Администратори
 after how many days should old versions of a page be removed (0 for never)	admin	bg	След колко дни трябва да бъдат премахнати стари версии на страница, 0 = никога.
 allow anonymous access	admin	bg	Разрешаване на анонимен достъп
 allow creating new pages (blank for all)	wiki	bg	Разрешаване на създаване на нови страници (празно за всички)
@@ -55,6 +54,8 @@ history lists	wiki	bg	Списъци с история
 history of	wiki	bg	Историята на
 if a page i have read access to is changed, send a notification	wiki	bg	Ако страница, до която имам достъп за четене е променена, изпратете известие
 if a page i have write access to is changed, send a notification	wiki	bg	Ако страница, до която имам достъп за запис е променена, изпратете известие
+if a page title matches this regular expression, send a notification.  you can look at title, name, lang, text using name: regex	wiki	bg	
+interwikiprefix	admin	bg	InterWikiPrefix
 invalid page name.	wiki	bg	Невалидно име на страницата!
 load	wiki	bg	Зареждане
 loads the named page in the given language, all change so far get lost !!!	wiki	bg	Зарежда посочената страница на избран език, всички промени досега се губят!
@@ -85,7 +86,7 @@ readonly	admin	bg	Прочети само ако...
 rebuild links	wiki	bg	Възстановете връзки (линкове)
 recent changes	wiki	bg	Скорошни промени
 renames page to the given name and language	wiki	bg	Преименува страница на даденото име и език
-richtext	wiki	bg	"Богат текст"
+richtext	wiki	bg	Богат текст
 rows	wiki	bg	Редове
 save the changes and exit	wiki	bg	Запазете промените и излезте
 saves and continues editing	wiki	bg	Запази и продължи с редактирането

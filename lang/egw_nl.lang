@@ -3,9 +3,9 @@
 add document to category	wiki	nl	Voeg document toe aan categorie toe
 added	wiki	nl	Toegevoegd
 administration features are disabled for this wiki.	wiki	nl	Beheer mogelijkheden zijn uitgeschakeld voor deze wiki.
-admins	wiki	nl	beheerders
 after how many days should old versions of a page be removed (0 for never)	admin	nl	Na hoeveel dagen moeten oude versies van een pagina verwijderd worden (0 betekent nooit)
 allow anonymous access	admin	nl	sta anonieme toegang toe
+allow creating new pages (blank for all)	wiki	nl	Toestaan om nieuwe pagina's aan te maken (leeg voor alles)
 anonymous password	admin	nl	Anoniem wachtwoord
 anonymous session type	admin	nl	Anoniem Sessie Type
 anonymous username	admin	nl	anonieme gebruikersnaam
@@ -14,6 +14,7 @@ block	wiki	nl	Blokkeer
 block / unblock hosts	common	nl	Blokkeer / deblokkeer hosts
 blocked ip address ranges	wiki	nl	Geblokkeerde IP adres ranges
 cancel without saving	wiki	nl	Afbreken zonder opslaan
+change notification	wiki	nl	Wijzigingsmelding
 changed	wiki	nl	Gewijzigd
 changes by last author	wiki	nl	Wijziging per laatste auteur
 choose your current time here, so the server may figure out what time zone you are in.	wiki	nl	Kies hier je huidige tijd zodat de server kan bepalen in welke tijdzonde je bent.
@@ -21,6 +22,10 @@ columns	wiki	nl	Kolommen
 compute difference	wiki	nl	Bereken het verschil
 converts the page to richtext	wiki	nl	Converteert de pagina naar richtext
 current version	wiki	nl	Huidige versie
+default read permission	wiki	nl	Standaard leesrechten
+default read permissions for creating a new page	preferences	nl	Standaard leesrechten voor het aanmaken van een nieuwe pagina
+default write permission	preferences	nl	Standaard schrijfrechten
+default write permissions for creating a new page	preferences	nl	Standaard schrijfrechten voor het aanmaken van een nieuwe pagina
 deleted	wiki	nl	Verwijderd
 deletes this page	wiki	nl	Verwijdert deze pagina
 difference between versions	wiki	nl	Verschil tussen versies
@@ -47,12 +52,16 @@ history	wiki	nl	historie
 history display should show <em>all</em> changes made by the latest author.  otherwise, show only the last change made.	wiki	nl	Historie overzicht moet <em>alle</em> wijzigingen tonen die door de laatste auteur gemaakt zijn. Alternatief is dat alleen de laatste wijziging getoond wordt.
 history lists	wiki	nl	Historielijsten
 history of	wiki	nl	Historie van
+if a page i have read access to is changed, send a notification	wiki	nl	Als een pagina waartoe ik leesrechten heb, wordt gewijzigd, stuur dan een melding
+if a page i have write access to is changed, send a notification	wiki	nl	Als een pagina waartoe ik schrijfrechten heb, wordt gewijzigd, stuur dan een melding
+if a page title matches this regular expression, send a notification.  you can look at title, name, lang, text using name: regex	wiki	nl	Als een paginatitel overeenkomt met deze reguliere expressie, stuur dan een melding.  U kunt de titel, naam, taal en tekst bekijken met behulp van naam: patroon<br />Voorbeelden:<br />Overeenkomende naam: “naam: Handleiding” komt overeen met elke pagina met Handleiding in de naam.  “name: ^Manual” komt overeen met elke pagina waarvan de naam <em>begint</em> met Manual, maar niet met OperationsManual.  “name: InfoLog|Addressbook” komt overeen met elke pagina waarvan de naam InfoLog of Addressbook bevat.  <br />Overeenkomende taal: “lang: en|de” komt overeen met Engelse en Duitse pagina's.  <br />Geavanceerd (regex): “text: \b(woord1|woord2|woord3)(?:\W+\w+){1,6}?\W+(woord1|woord2|woord3)\b” komt overeen met elke pagina waar een van de 3 woorden 1 tot 6 woorden uit elkaar staan.
 interwikiprefix	admin	nl	InterWikiPrefix
 invalid page name.	wiki	nl	Ongeldige pagina naam
 load	wiki	nl	Laden
 loads the named page in the given language, all change so far get lost !!!	wiki	nl	Laadt de genoemde pagina in de opgegeven taal, alle wijzgingen tot op dit moment gaan verloren!!!
 lock / unlock pages	common	nl	Blokker / deblokkeer pagina's
 locked	wiki	nl	Geblokkeerd
+message to send	wiki	nl	Te verzenden bericht
 name wiki home link	admin	nl	naam wike home link
 newer	wiki	nl	Nieuwer
 no never	admin	nl	Nee, nooit
@@ -64,14 +73,17 @@ only if browser supports a richtext-editor	admin	nl	Alleen indien browser een ri
 only on the first page	wiki	nl	alleen op de eerste pagina
 page '%1' not found !!!	wiki	nl	Pagina '%1' niet gevonden !!!
 page content	wiki	nl	Pagina inhoud
-path of the upload directory (has to be writable by the webserver!)	admin	nl	Pad naar de upload directory (moet schrijfbaar zijn voor de webserver!)
-picture upload via richtext editor (leave the upload directory empty to disable the upload)	admin	nl	Afbeeldingen uploaden via richtext editor (laat de upload directory leeg om dit uit te schakelen)
+pages i have read access	wiki	nl	Pagina's waartoe ik leesrechten heb
+pages i have write access	wiki	nl	Pagina's waartoe ik schrijfrechten heb
+pages that match this regular expression	wiki	nl	Pagina's die overeenkomen met deze reguliere expressie
+person who changed the page	wiki	nl	Persoon die de pagina heeft gewijzigd
 please contact the %1administrator%2 for assistance.	wiki	nl	Neem s.v.p. contact op met %1Administrator%2 voor assistentie.
 preview	wiki	nl	Voorbeeld
 preview of current version	wiki	nl	Voorbeeld van huidige versie
 rate control / ip blocking disabled	wiki	nl	Beoordeling controle / IP blokkering uitgeschakeld
 readable by	wiki	nl	Leesbaar voor
 readonly	admin	nl	alleen-lezen
+rebuild links	wiki	nl	Links opnieuw opbouwen
 recent changes	wiki	nl	Recente Wijzigingen
 renames page to the given name and language	wiki	nl	Hernoemt de pagina in de opgegeven naam en taal
 richtext	wiki	nl	Richtext
@@ -89,6 +101,7 @@ this page can not be edited.	wiki	nl	Deze pagina kan niet gewijzigd worden.
 twin pages	wiki	nl	Tweeling pagina's
 unblock	wiki	nl	Deblokkeren
 updates the preview	wiki	nl	Werkt het voorbeeld bij
+upload directory for pasted or dragged in images in egroupware vfs (filemanager).	wiki	nl	Uploadmap voor geplakte of gesleepte afbeeldingen in EGroupware Bestandsbeheer.
 url of the upload directory	admin	nl	URL van de upload directory
 use this module for displaying wiki-pages	wiki	nl	Gebruik deze module om wiki-pagina's te tonen
 users	wiki	nl	gebruikers

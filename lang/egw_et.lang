@@ -1,13 +1,30 @@
 added	wiki	et	Lisatud
+allow creating new pages (blank for all)	wiki	et	Uute lehekülgede loomise lubamine (tühjaks kõigi jaoks)
 anonymous password	admin	et	Anonymous parool
 anonymous username	admin	et	Anonymous kasutajanimi
+change notification	wiki	et	Muudatuste teavitamine
 current version	wiki	et	Käesolev Versioon
+default read permission	wiki	et	Vaikimisi lugemisõigus
+default read permissions for creating a new page	preferences	et	Vaikimisi lugemisõigused uue lehe loomiseks
+default write permission	preferences	et	Vaikimisi kirjutusõigus
+default write permissions for creating a new page	preferences	et	Vaikimisi kirjutusõigused uue lehe loomiseks
 deleted	wiki	et	kustutatud
+difference between versions	wiki	et	Versioonide erinevus
 history	wiki	et	Ajalugu
+if a page i have read access to is changed, send a notification	wiki	et	Kui leht, millele mul on lugemisõigus, muutub, saada teade
+if a page i have write access to is changed, send a notification	wiki	et	Kui leht, millele mul on kirjutusõigus, muutub, saada teade
+if a page title matches this regular expression, send a notification.  you can look at title, name, lang, text using name: regex	wiki	et	Kui lehe pealkiri vastab sellele regulaaravaldisele, saatke teade.  Saate vaadata pealkirja, nime, keelt ja teksti, kasutades nime: mustrit<br />Näited:<br />Nime vastavus: „name: Manual“ vastab igale lehele, mille nimetus sisaldab sõna Manual.  „name: ^Manual“ vastab igale lehele, mille nimi <em>algab</em> sõnaga Manual, kuid mitte OperationsManual.  „name: InfoLog|Addressbook“ vastab igale lehele, mille nimi sisaldab sõnu InfoLog või Addressbook.  <br />Vastav keel: „lang: en|de“ vastab inglise- ja saksakeelsetele lehtedele.  <br />Täpsem (regex): „text: \b(word1|word2|word3)(?:\W+\w+){1,6}?\W+(word1|word2|word3)\b“ sobib kõikidele lehtedele, kus ükskõik millised 3 sõna on 1–6 sõna vahega.
 load	wiki	et	Lae
+message to send	wiki	et	Saadetav sõnum
 not set	wiki	et	pole seatud
+pages i have read access	wiki	et	Leheküljed, millele mul on lugemisõigus
+pages i have write access	wiki	et	Leheküljed, millele mul on kirjutusõigus
+pages that match this regular expression	wiki	et	Selle regulaarse väljendiga sobivad leheküljed
+person who changed the page	wiki	et	Lehe muutnud isik
 preview	wiki	et	Eelvaade
 readonly	admin	et	loeainult
+rebuild links	wiki	et	Lingid uuesti luua
 search for	wiki	et	Otsi
 summary	wiki	et	Summarselt
 the search returned no result!	wiki	et	Otsing ei andnud tulemusi!
+upload directory for pasted or dragged in images in egroupware vfs (filemanager).	wiki	et	Laadige EGroupware failihaldurisse kleebitud või sinna lohistatud piltide kataloog üles.

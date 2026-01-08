@@ -3,9 +3,9 @@
 add document to category	wiki	pl	Dodaj dokument do kategorii
 added	wiki	pl	Dodano
 administration features are disabled for this wiki.	wiki	pl	Możliwości administracyjne są niedostępne dla tej Wiki
-admins	wiki	pl	administratorzy
 after how many days should old versions of a page be removed (0 for never)	admin	pl	Po ilu dniach należy usunąć trawą wersję strony (0 oznacza nigdy)
 allow anonymous access	admin	pl	zezwól na dostęp anonimowy
+allow creating new pages (blank for all)	wiki	pl	Zezwól na tworzenie nowych stron (puste dla wszystkich)
 anonymous password	admin	pl	Hasło dostępu anonimowego
 anonymous session type	admin	pl	Typ sesji dostępu anonimowego
 anonymous username	admin	pl	Nazwa użytkownika anonimowego
@@ -14,6 +14,7 @@ block	wiki	pl	Zablokuj
 block / unblock hosts	common	pl	Zablokuj / odblokuj hosty
 blocked ip address ranges	wiki	pl	Zakres zablokowanych adresów IP
 cancel without saving	wiki	pl	Opuść bez zachowania zmian
+change notification	wiki	pl	Powiadomienie o zmianach
 changed	wiki	pl	Zmieniono
 changes by last author	wiki	pl	Zmiany dodonane przez ostatniego autora:
 choose your current time here, so the server may figure out what time zone you are in.	wiki	pl	Wskaż bieżący czas u Ciebie, aby serwer mógł określić strefę czasową, w której się znajdujesz.
@@ -21,6 +22,10 @@ columns	wiki	pl	Kolumny
 compute difference	wiki	pl	Oblicz różnicę
 converts the page to richtext	wiki	pl	Konwertuje stronę do formatu 'richtext'
 current version	wiki	pl	Bieżąca wersja
+default read permission	wiki	pl	Domyślne uprawnienia do odczytu
+default read permissions for creating a new page	preferences	pl	Domyślne uprawnienia do odczytu przy tworzeniu nowej strony
+default write permission	preferences	pl	Domyślne uprawnienia do zapisu
+default write permissions for creating a new page	preferences	pl	Domyślne uprawnienia do zapisu przy tworzeniu nowej strony
 deleted	wiki	pl	Usunięto
 deletes this page	wiki	pl	Usuwa tą stronę
 difference between versions	wiki	pl	Różnice między wersjami
@@ -47,12 +52,16 @@ history	wiki	pl	historia
 history display should show <em>all</em> changes made by the latest author.  otherwise, show only the last change made.	wiki	pl	Historia powinna pokazywać <em>wszystkie</em> zmiany wykonane przez ostatniego autora. Alternatywnie zostaną wyświetlone tylko ostatnie zmiany.
 history lists	wiki	pl	Listy historii
 history of	wiki	pl	Historia
+if a page i have read access to is changed, send a notification	wiki	pl	Jeśli strona, do której mam dostęp do odczytu, zostanie zmieniona, wyślij powiadomienie
+if a page i have write access to is changed, send a notification	wiki	pl	Jeśli strona, do której mam dostęp do zapisu, zostanie zmieniona, wyślij powiadomienie
+if a page title matches this regular expression, send a notification.  you can look at title, name, lang, text using name: regex	wiki	pl	Jeśli tytuł strony pasuje do tego wyrażenia regularnego, wyślij powiadomienie.  Możesz sprawdzić tytuł, nazwę, język, tekst za pomocą wzorca name:<br />Przykłady:<br />Dopasowanie nazwy: „name: Manual” pasuje do każdej strony, której nazwa zawiera słowo „Manual”.  „name: ^Manual” pasuje do każdej strony, której nazwa <em>zaczyna się</em> od Manual, ale nie OperationsManual.  „name: InfoLog|Addressbook” pasuje do każdej strony, której nazwa zawiera InfoLog lub Addressbook.  <br />Dopasowanie języka: „lang: en|de” pasuje do stron w języku angielskim i niemieckim.  <br />Zaawansowane (wyrażenie regularne): „text: \b(word1|word2|word3)(?:\W+\w+){1,6}?\W+(word1|word2|word3)\b” dopasowuje każdą stronę, na której którekolwiek z 3 słów występuje w odległości od 1 do 6 słów od siebie.
 interwikiprefix	admin	pl	Prefiks Wewnętrzny Wiki
 invalid page name.	wiki	pl	Niepoprawna nazwa strony.
 load	wiki	pl	Załaduj
 loads the named page in the given language, all change so far get lost !!!	wiki	pl	Ładuje nazwaną stronę w podanym języku - wszystkie zmiany wykonane do tego czasu zostaną stracone!
 lock / unlock pages	common	pl	Blokuje / odblokowuje strony
 locked	wiki	pl	Zablokowano
+message to send	wiki	pl	Wiadomość do wysłania
 name wiki home link	admin	pl	nazwij link domowy wiki
 newer	wiki	pl	Nowsze
 no never	admin	pl	Nie, nigdy
@@ -64,14 +73,17 @@ only if browser supports a richtext-editor	admin	pl	Tylko jeśli przeglądarka w
 only on the first page	wiki	pl	tylko na pierszej stronie
 page '%1' not found !!!	wiki	pl	Strona '%1' nie znaleziona!
 page content	wiki	pl	Zawartość strony
-path of the upload directory (has to be writable by the webserver!)	admin	pl	Ścieżka katalogu uploadu (zapisywalna przez serwer www)
-picture upload via richtext editor (leave the upload directory empty to disable the upload)	admin	pl	Ładowanie obrazka przez zaawansowany edytor (zostaw katalog uploadu pusty aby wyłączyć)
+pages i have read access	wiki	pl	Strony, do których mam dostęp do odczytu
+pages i have write access	wiki	pl	Strony, do których mam dostęp do zapisu
+pages that match this regular expression	wiki	pl	Strony pasujące do tego wyrażenia regularnego
+person who changed the page	wiki	pl	Osoba, która zmieniła stronę
 please contact the %1administrator%2 for assistance.	wiki	pl	Skontaktuj się z %1Administratorem%2 aby uzyskać pomoc.
 preview	wiki	pl	Podgląd
 preview of current version	wiki	pl	Podgląd wersji bieżącej
 rate control / ip blocking disabled	wiki	pl	Blokowanie IP oraz limit stron wyłączone
 readable by	wiki	pl	Do odczytu dla
 readonly	admin	pl	tylko do odczytu
+rebuild links	wiki	pl	Odbuduj linki
 recent changes	wiki	pl	Ostatnie zmiany
 renames page to the given name and language	wiki	pl	Zmienia nazwę strony na podaną nazwę i język
 richtext	wiki	pl	Dokument 'richtext'
@@ -89,6 +101,7 @@ this page can not be edited.	wiki	pl	Ta strona nie może być edytowana
 twin pages	wiki	pl	Podwójne strony
 unblock	wiki	pl	Odblokuj
 updates the preview	wiki	pl	Odświeża podgląd
+upload directory for pasted or dragged in images in egroupware vfs (filemanager).	wiki	pl	Katalog do przesyłania obrazów wklejonych lub przeciągniętych w menedżerze plików EGroupware.
 url of the upload directory	admin	pl	URL dla katalogu ładowania
 use this module for displaying wiki-pages	wiki	pl	Użyj tego modułu do wyświetlania stron stylu Wiki
 users	wiki	pl	użytkownicy

@@ -1,4 +1,22 @@
 added	wiki	uk	Добавлено
-admins	wiki	uk	Адміністратори
+allow creating new pages (blank for all)	wiki	uk	Дозволити створювати нові сторінки (порожнє для всіх)
+change notification	wiki	uk	Повідомлення про зміни
+default read permission	wiki	uk	Права доступу для читання за замовчуванням
+default read permissions for creating a new page	preferences	uk	Права доступу для читання за замовчуванням для створення нової сторінки
+default write permission	preferences	uk	Права доступу для запису за замовчуванням
+default write permissions for creating a new page	preferences	uk	Права доступу для запису за замовчуванням для створення нової сторінки
 deleted	wiki	uk	Видалено
+difference between versions	wiki	uk	Різниця між версіями
+if a page i have read access to is changed, send a notification	wiki	uk	Якщо сторінка, до якої я маю доступ для читання, була змінена, надіслати повідомлення
+if a page i have write access to is changed, send a notification	wiki	uk	Якщо сторінка, до якої я маю доступ для запису, була змінена, надіслати повідомлення
+if a page title matches this regular expression, send a notification.  you can look at title, name, lang, text using name: regex	wiki	uk	Якщо заголовок сторінки відповідає цьому регулярному виразу, надішліть повідомлення.  Ви можете переглянути заголовок, ім'я, мову, текст за допомогою імені: шаблон<br />Приклади:<br />Відповідність імені: «name: Manual» відповідає кожній сторінці, в імені якої є Manual.  «name: ^Manual» відповідає кожній сторінці, назва якої <em>починається</em> з Manual, але не OperationsManual.  «name: InfoLog|Addressbook» відповідає будь-якій сторінці, назва якої містить InfoLog або Addressbook.  <br />Відповідність мови: «lang: en|de» відповідає англійським і німецьким сторінкам.  <br />Розширений (регекс): «text: \b(word1|word2|word3)(?:\W+\w+){1,6}?\W+(
 load	wiki	uk	Вгрузити
+message to send	wiki	uk	Повідомлення для відправлення
+page content	wiki	uk	Вміст сторінки
+pages i have read access	wiki	uk	Сторінки, до яких я маю доступ для читання
+pages i have write access	wiki	uk	Сторінки, до яких я маю доступ для запису
+pages that match this regular expression	wiki	uk	Сторінки, що відповідають цьому регулярному виразу
+person who changed the page	wiki	uk	Особа, яка змінила сторінку
+rebuild links	wiki	uk	Відновити посилання
+upload directory for pasted or dragged in images in egroupware vfs (filemanager).	wiki	uk	Каталог для завантаження зображень, вставлених або перетягнутих у файловий менеджер EGroupware.
+yes with navbar	admin	uk	Так, з навігаційною панеллю

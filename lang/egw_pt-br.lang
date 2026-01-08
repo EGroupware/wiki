@@ -3,9 +3,9 @@
 add document to category	wiki	pt-br	Adicionar documento a uma categoria
 added	wiki	pt-br	Adicionado
 administration features are disabled for this wiki.	wiki	pt-br	Recursos administrativos estão desabilitados para este Wiki.
-admins	wiki	pt-br	administradores
 after how many days should old versions of a page be removed (0 for never)	admin	pt-br	Versões antigas de uma página deverão ser removidas após quantos dias? (0 para nunca)
 allow anonymous access	admin	pt-br	permitir acesso anônimo
+allow creating new pages (blank for all)	wiki	pt-br	Permitir a criação de novas páginas (em branco para todas)
 anonymous password	admin	pt-br	Senha para usuário Anônimo
 anonymous session type	admin	pt-br	Tipo de Sessão para Anônimo
 anonymous username	admin	pt-br	Nome do usuário anônimo
@@ -14,6 +14,7 @@ block	wiki	pt-br	Bloquear
 block / unblock hosts	common	pt-br	Bloquear / Desbloquear hosts
 blocked ip address ranges	wiki	pt-br	Faixa de endereço IP bloqueada
 cancel without saving	wiki	pt-br	Cancelar sem salvar
+change notification	wiki	pt-br	Notificação de alteração
 changed	wiki	pt-br	Alterado
 changes by last author	wiki	pt-br	Alterações por autor
 choose your current time here, so the server may figure out what time zone you are in.	wiki	pt-br	Escolha seu fuso horário aqui, assim os usuários podem adotar o horário fora do fuso que você está.
@@ -21,6 +22,10 @@ columns	wiki	pt-br	Colunas
 compute difference	wiki	pt-br	Computar Diferenças
 converts the page to richtext	wiki	pt-br	Converter a página para formato richtext
 current version	wiki	pt-br	Versão atual
+default read permission	wiki	pt-br	Permissão de leitura padrão
+default read permissions for creating a new page	preferences	pt-br	Permissões de leitura padrão para criar uma nova página
+default write permission	preferences	pt-br	Permissão de escrita padrão
+default write permissions for creating a new page	preferences	pt-br	Permissões de escrita padrão para criar uma nova página
 deleted	wiki	pt-br	Removida
 deletes this page	wiki	pt-br	Remover esta página
 difference between versions	wiki	pt-br	Diferença entre as versões
@@ -47,12 +52,16 @@ history	wiki	pt-br	histórico
 history display should show <em>all</em> changes made by the latest author.  otherwise, show only the last change made.	wiki	pt-br	Mostrar a lista de histórico <em>inteira</em> com alterações feitas pelo último autor. Do contrário, mostre apenas a última mudança feita.
 history lists	wiki	pt-br	Lista de Histórico
 history of	wiki	pt-br	Histórico de
+if a page i have read access to is changed, send a notification	wiki	pt-br	Se uma página à qual tenho acesso de leitura for alterada, enviar uma notificação
+if a page i have write access to is changed, send a notification	wiki	pt-br	Se uma página à qual tenho acesso de escrita for alterada, enviar uma notificação
+if a page title matches this regular expression, send a notification.  you can look at title, name, lang, text using name: regex	wiki	pt-br	Se o título de uma página corresponder a esta expressão regular, envie uma notificação. Você pode verificar o título, nome, idioma e texto usando nome: padrão<br />Exemplos:<br />Correspondência de um nome: “nome: Manual” corresponde a todas as páginas com Manual no nome.  “nome: ^Manual” corresponde a todas as páginas cujo nome <em>começa</em> com Manual, mas não OperationsManual.  “nome: InfoLog|Addressbook” corresponde a qualquer página cujo nome contenha InfoLog ou Addressbook.  <br />Correspondência de idioma: “lang: en|de” corresponde a páginas em inglês e alemão.  <br />Avançado (regex): “texto: \b(palavra1|palavra2|palavra3)(?:\W+\w+){1,6}?\W+(palavra1|palavra2|palavra3)\b” corresponde a qualquer página em que qualquer uma das três palavras esteja separada por 1 a 6 palavras.
 interwikiprefix	admin	pt-br	InterWikiPrefix
 invalid page name.	wiki	pt-br	Nome de página inválido
 load	wiki	pt-br	Carregar
 loads the named page in the given language, all change so far get lost !!!	wiki	pt-br	Carrega a página escolhida no idioma selecionado, todas as alterações serão perdidas !!!
 lock / unlock pages	common	pt-br	Bloquear / Desbloquear Páginas
 locked	wiki	pt-br	Bloqueada
+message to send	wiki	pt-br	Mensagem a enviar
 name wiki home link	admin	pt-br	name wiki Página principal
 newer	wiki	pt-br	Mais recente
 no never	admin	pt-br	Nunca
@@ -64,14 +73,17 @@ only if browser supports a richtext-editor	admin	pt-br	Apenas se o navegador sup
 only on the first page	wiki	pt-br	somente para a primeira página
 page '%1' not found !!!	wiki	pt-br	Página '%1' não encontrada !!!
 page content	wiki	pt-br	Conteúdo da página
-path of the upload directory (has to be writable by the webserver!)	admin	pt-br	Caminho para o diretório de carregamento (o servidor web deve ter permissões de escrita nele)
-picture upload via richtext editor (leave the upload directory empty to disable the upload)	admin	pt-br	Carregar figura através de editor richtext (deixe em branco para desabilitar o carregamento)
+pages i have read access	wiki	pt-br	Páginas às quais tenho acesso de leitura
+pages i have write access	wiki	pt-br	Páginas às quais tenho acesso de escrita
+pages that match this regular expression	wiki	pt-br	Páginas que correspondem a esta expressão regular
+person who changed the page	wiki	pt-br	Pessoa que alterou a página
 please contact the %1administrator%2 for assistance.	wiki	pt-br	Contate o %1Administrador%2 para ajuda.
 preview	wiki	pt-br	Visualizar
 preview of current version	wiki	pt-br	Visualizar versão atual
 rate control / ip blocking disabled	wiki	pt-br	Controle de taxa / Bloqueio para IP desativado
 readable by	wiki	pt-br	Leitura
 readonly	admin	pt-br	apenas leitura
+rebuild links	wiki	pt-br	Reconstruir links
 recent changes	wiki	pt-br	Alterações recentes
 renames page to the given name and language	wiki	pt-br	Renomear página para ao nome e idioma escolhidos
 richtext	wiki	pt-br	Richtext
@@ -89,6 +101,7 @@ this page can not be edited.	wiki	pt-br	Esta página não pode ser editada.
 twin pages	wiki	pt-br	Página idênticas
 unblock	wiki	pt-br	Desbloquear
 updates the preview	wiki	pt-br	Atualizar a visualização
+upload directory for pasted or dragged in images in egroupware vfs (filemanager).	wiki	pt-br	Diretório de upload para imagens coladas ou arrastadas no Gerenciador de Arquivos do EGroupware.
 url of the upload directory	admin	pt-br	URL do diretório de carregamento
 use this module for displaying wiki-pages	wiki	pt-br	Use este módulo para exibir páginas wiki
 users	wiki	pt-br	usuários

@@ -2,8 +2,8 @@
 add document to category	wiki	lv	Pievienot dokumentu kategorijai
 added	wiki	lv	Pievienots
 administration features are disabled for this wiki.	wiki	lv	Administratīvās iespējas nav atļautas šim wiki
-admins	wiki	lv	administratori
 allow anonymous access	admin	lv	atļauj anonīmu piekļuvi
+allow creating new pages (blank for all)	wiki	lv	Atļaut izveidot jaunas lapas (tukšas visiem)
 anonymous password	admin	lv	Anonīmā parole
 anonymous session type	admin	lv	Anonīmās sesijas tips
 anonymous username	admin	lv	anonīmais lietotājvārds
@@ -12,12 +12,17 @@ block	wiki	lv	Bloks
 block / unblock hosts	common	lv	Bloķēt/ atbloķēt hostu
 blocked ip address ranges	wiki	lv	Bloķēt IP adreses rangus
 cancel without saving	wiki	lv	Atcelt bez saglabāšanas
+change notification	wiki	lv	Paziņojums par izmaiņām
 changed	wiki	lv	Mainīts
 choose your current time here, so the server may figure out what time zone you are in.	wiki	lv	Izvēlies konkrēto laiku šeit, lai serveris varētu noteikt, kurā laika zonā tu esi.
 columns	wiki	lv	Kolonnas
 compute difference	wiki	lv	Izskaitļot atšķirības
 converts the page to richtext	wiki	lv	Pārveido šo lapu RTF
 current version	wiki	lv	Patreizējā versija
+default read permission	wiki	lv	Noklusējuma lasīšanas atļauja
+default read permissions for creating a new page	preferences	lv	Noklusējuma lasīšanas atļaujas jaunas lapas izveidei
+default write permission	preferences	lv	Noklusējuma rakstīšanas atļauja
+default write permissions for creating a new page	preferences	lv	Noklusējuma rakstīšanas atļaujas jaunas lapas izveidei
 deleted	wiki	lv	Izdzēsts
 deletes this page	wiki	lv	Izdzēst šo lapu
 difference between versions	wiki	lv	Atšķirības starp versijām
@@ -42,11 +47,16 @@ history	wiki	lv	vēsture
 history display should show <em>all</em> changes made by the latest author.  otherwise, show only the last change made.	wiki	lv	Vēsturei būtu jāparāda <em>visas</em>izmaiņas, ko veicis pēdējais lietotājs. Citādāk, rā�īs tikai pēdējās veiktās izmaiņas
 history lists	wiki	lv	Vestures saraksts
 history of	wiki	lv	Vesture
+if a page i have read access to is changed, send a notification	wiki	lv	Ja lapa, kurai man ir lasīšanas piekļuve, tiek mainīta, nosūtiet paziņojumu
+if a page i have write access to is changed, send a notification	wiki	lv	Ja lapa, kurai man ir rakstīšanas piekļuve, tiek mainīta, nosūtiet paziņojumu
+if a page title matches this regular expression, send a notification.  you can look at title, name, lang, text using name: regex	wiki	lv	Ja lapas nosaukums atbilst šim regulārajam izteiksmes veidam, nosūtiet paziņojumu.  Jūs varat apskatīt nosaukumu, vārdu, valodu, tekstu, izmantojot vārdu: pattern<br />Piemēri:<br />Atbilstība vārdam: “name: Manual” atbilst visām lapām, kuru nosaukumā ir vārds Manual.  “name: ^Manual” atbilst visām lapām, kuru nosaukums <em>sākas</em> ar Manual, bet ne OperationsManual.  “name: InfoLog|Addressbook” atbilst visām lapām, kuru nosaukums satur InfoLog vai Addressbook.  <br />Atbilstoša valoda: “lang: en|de” atbilst angļu un vācu valodas lapām.  <br />Papildu (regex): “text: \b(word1|word2|word3)(?:\W+\w+){1,6}?\W+(word1|word2|word3)\b” atbilst jebkurai lapai, kurā jebkurš no 3 vārdiem atrodas 1 līdz 6 vārdu attālumā.
+interwikiprefix	admin	lv	InterWikiPrefix
 invalid page name.	wiki	lv	Nederīgs lapas nosaukums
 load	wiki	lv	Ielādēt
 loads the named page in the given language, all change so far get lost !!!	wiki	lv	Ielādē nosaukto lapu dotajā valodā, visas līdz šim veiktas izmaiņas tiek pazaudētas!!!
 lock / unlock pages	common	lv	Slēgt/ atvērt lapas
 locked	wiki	lv	Slēgts
+message to send	wiki	lv	Sūtāmais ziņojums
 name wiki home link	admin	lv	nosauc wiki mājas saiti
 newer	wiki	lv	Nekad
 no never	admin	lv	Nē, nekad
@@ -55,12 +65,17 @@ not set	wiki	lv	nav uzstādīts
 older	wiki	lv	Vecāks
 only if browser supports a richtext-editor	admin	lv	Tikai, ja pārlūks atbalsta RTF redaktoru
 page content	wiki	lv	Lapas saturs
+pages i have read access	wiki	lv	Lapas, kurām man ir lasīšanas piekļuve
+pages i have write access	wiki	lv	Lapas, kurām man ir rakstīšanas piekļuve
+pages that match this regular expression	wiki	lv	Lapas, kas atbilst šim regulārajam izteiksmes veidam
+person who changed the page	wiki	lv	Persona, kas mainīja lapu
 please contact the %1administrator%2 for assistance.	wiki	lv	Pēc palīdzības sazinies ar%1administratoru%2
 preview	wiki	lv	Priekšskatījums
 preview of current version	wiki	lv	Priekšskatīt esošo versiju
 rate control / ip blocking disabled	wiki	lv	Novērtēt kontroli/ IP bloķēšana nav atļauta
 readable by	wiki	lv	Lasāms
 readonly	admin	lv	tikai lasāms
+rebuild links	wiki	lv	Atjaunot saites
 recent changes	wiki	lv	Nesenās izmaiņas
 renames page to the given name and language	wiki	lv	Pārsauc lapu dotajā nosaukumā un valodā
 richtext	wiki	lv	RTF
@@ -75,6 +90,7 @@ this page can not be edited.	wiki	lv	Šī lapa nevar tikt rediģēta
 twin pages	wiki	lv	Pāra lapas
 unblock	wiki	lv	Atbloķēt
 updates the preview	wiki	lv	Atjaunina priekšskatījumu
+upload directory for pasted or dragged in images in egroupware vfs (filemanager).	wiki	lv	Augšupielādējiet direktoriju, kurā ievietotas vai pārvilktas attēlus EGroupware failu pārvaldniekā.
 use this module for displaying wiki-pages	wiki	lv	Lietot šo moduli, lai parādītu wiki-lapas
 users	wiki	lv	lietotāji
 view document history	wiki	lv	Rādīt dokumentu vēsturi

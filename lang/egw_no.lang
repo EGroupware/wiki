@@ -2,8 +2,8 @@
 add document to category	wiki	no	Legg dokument til kategori
 added	wiki	no	Lagt til
 administration features are disabled for this wiki.	wiki	no	Administrasjonsmuligheter er slått av for denne wiki.
-admins	wiki	no	Administratorer
 allow anonymous access	admin	no	Tillate anonym tilgang
+allow creating new pages (blank for all)	wiki	no	Tillat oppretting av nye sider (tomt for alle)
 anonymous password	admin	no	Passord for anonyme brukere
 anonymous username	admin	no	Navn på anonym bruker
 automatically convert pages with wiki-syntax to richtext (if edited)?	admin	no	Automatisk konvertere sidene med wikisynatks til riktekst(dersom de redigeres)?
@@ -11,6 +11,7 @@ block	wiki	no	Blokker
 block / unblock hosts	common	no	Blokker / åpne vert
 blocked ip address ranges	wiki	no	Blokkert IP-adresseområde
 cancel without saving	wiki	no	Kanseller uten å lagre
+change notification	wiki	no	Endringsvarsel
 changed	wiki	no	Endret
 changes by last author	wiki	no	Endringer av siste forfatter
 choose your current time here, so the server may figure out what time zone you are in.	wiki	no	Velg din gjeldende tid her slik at serveren kan finne ut hvilken tidssone du er i.
@@ -18,6 +19,10 @@ columns	wiki	no	Kolonner
 compute difference	wiki	no	Kalkuler differanse
 converts the page to richtext	wiki	no	Konverter denne siden til riktekst
 current version	wiki	no	Gjeldende versjon
+default read permission	wiki	no	Standard lesetillatelse
+default read permissions for creating a new page	preferences	no	Standard lesetillatelser for oppretting av ny side
+default write permission	preferences	no	Standard skrivetillatelse
+default write permissions for creating a new page	preferences	no	Standard skrivetillatelser for oppretting av ny side
 deleted	wiki	no	Slettet
 deletes this page	wiki	no	Slette denne siden
 difference between versions	wiki	no	Differanse mellom versjoner
@@ -41,11 +46,15 @@ find	wiki	no	Find
 history	wiki	no	Historikk
 history lists	wiki	no	Historikkliste
 history of	wiki	no	Historikk for
+if a page i have read access to is changed, send a notification	wiki	no	Hvis en side jeg har lesetilgang til endres, send en varsling
+if a page i have write access to is changed, send a notification	wiki	no	Hvis en side jeg har skrivetilgang til endres, send en varsling
+if a page title matches this regular expression, send a notification.  you can look at title, name, lang, text using name: regex	wiki	no	Hvis en sidetittel samsvarer med dette regulære uttrykket, send en varsling.  Du kan se på tittel, navn, språk, tekst ved å bruke navn: mønster<br />Eksempler:<br />Samsvarer med et navn: «navn: Manual» samsvarer med alle sider med Manual i navnet.  «name: ^Manual» samsvarer med alle sider hvor navnet <em>starter</em> med Manual, men ikke OperationsManual.  «name: InfoLog|Addressbook» samsvarer med alle sider hvor navnet inneholder InfoLog eller Addressbook.  <br />Matching språk: «lang: en|de» samsvarer med engelske og tyske sider.  <br />Avansert (regex): «text: \b(word1|word2|word3)(?:\W+\w+){1,6}?\W+(word1|word2|word3)\b» samsvarer med alle sider hvor ett av de tre ordene er 1 til 6 ord fra hverandre.
 interwikiprefix	admin	no	InterWikiPrefiks
 invalid page name.	wiki	no	Ugyldig sidenavn
 load	wiki	no	Last inn
 lock / unlock pages	common	no	Lås / lås opp sidene
 locked	wiki	no	Låst
+message to send	wiki	no	Melding som skal sendes
 name wiki home link	admin	no	Navn Wiki Hjem Lenke
 newer	wiki	no	Aldri
 no only on request	admin	no	Ikke bare på forespørsel
@@ -55,11 +64,16 @@ on all pages	wiki	no	på alle sider
 only if browser supports a richtext-editor	admin	no	Bare dersom nettleseren støtter riktekst
 only on the first page	wiki	no	bare på den første siden
 page content	wiki	no	Sideinnhold
+pages i have read access	wiki	no	Sider jeg har lesetilgang til
+pages i have write access	wiki	no	Sider jeg har skrivetilgang til
+pages that match this regular expression	wiki	no	Sider som samsvarer med dette regulære uttrykket
+person who changed the page	wiki	no	Person som endret siden
 please contact the %1administrator%2 for assistance.	wiki	no	Kontakt %1Administrator%2 for assistanse
 preview	wiki	no	Forhåndsvis
 preview of current version	wiki	no	Forhåndsvis gjeldende versjon
 readable by	wiki	no	Lesbar av
 readonly	admin	no	Bare lese
+rebuild links	wiki	no	Gjenoppbygg lenker
 recent changes	wiki	no	Nylige endringer
 renames page to the given name and language	wiki	no	Omdøpe siden til gitt navn og språk
 richtext	wiki	no	Riktekst
@@ -75,6 +89,7 @@ this page can not be edited.	wiki	no	Denne siden kan ikke endres
 twin pages	wiki	no	Tvillingsider
 unblock	wiki	no	Lås opp
 updates the preview	wiki	no	Oppdater forhåndsvisningen
+upload directory for pasted or dragged in images in egroupware vfs (filemanager).	wiki	no	Last opp katalog for limte eller drade bilder i EGroupware File Manager.
 use this module for displaying wiki-pages	wiki	no	Bruk denne modulen for å vise wikisider
 users	wiki	no	Brukere
 view document history	wiki	no	Vis dokumenthistorikk

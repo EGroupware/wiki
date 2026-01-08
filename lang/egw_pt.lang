@@ -3,9 +3,9 @@
 add document to category	wiki	pt	Adicionar documento à categoria
 added	wiki	pt	Adicionado/a
 administration features are disabled for this wiki.	wiki	pt	As opções de administração não estão activas neste wiki.
-admins	wiki	pt	administradores
 after how many days should old versions of a page be removed (0 for never)	admin	pt	As versões antigas de uma página devem ser removidas após quantos dias (0 para nunca)?
 allow anonymous access	admin	pt	Permitir acesso anónimo
+allow creating new pages (blank for all)	wiki	pt	Permitir a criação de novas páginas (em branco para todos)
 anonymous password	admin	pt	Senha anónima
 anonymous session type	admin	pt	Tipo de sessão anónima
 anonymous username	admin	pt	Nome de utilizador anónimo
@@ -14,6 +14,7 @@ block	wiki	pt	Bloquear
 block / unblock hosts	common	pt	Bloquear / Desbloquear servidores
 blocked ip address ranges	wiki	pt	Sequências de endereços IP bloqueadas
 cancel without saving	wiki	pt	Cancelar sem guardar
+change notification	wiki	pt	Notificação de alteração
 changed	wiki	pt	Alterado/a
 changes by last author	wiki	pt	Alterações do último autor
 choose your current time here, so the server may figure out what time zone you are in.	wiki	pt	Escolha a sua hora actual aqui, para que o servidor possa descobrir o seu fuso horário.
@@ -21,6 +22,10 @@ columns	wiki	pt	Colunas
 compute difference	wiki	pt	Processar diferenças
 converts the page to richtext	wiki	pt	Converte a página para texto
 current version	wiki	pt	Versão actual
+default read permission	wiki	pt	Permissão de leitura padrão
+default read permissions for creating a new page	preferences	pt	Permissões de leitura padrão para criar uma nova página
+default write permission	preferences	pt	Permissão de escrita padrão
+default write permissions for creating a new page	preferences	pt	Permissões de escrita padrão para criar uma nova página
 deleted	wiki	pt	Eliminado/a
 deletes this page	wiki	pt	Elimina esta página
 difference between versions	wiki	pt	Diferenças entre versões
@@ -47,12 +52,16 @@ history	wiki	pt	Histórico
 history display should show <em>all</em> changes made by the latest author.  otherwise, show only the last change made.	wiki	pt	A apresentação do histórico deve exibir <em>todas</em> as alterações efectuadas pelo último autor. Caso contrário, deve exibir apenas a última alteração efectuada.
 history lists	wiki	pt	Lista de histórico
 history of	wiki	pt	Histórico de
+if a page i have read access to is changed, send a notification	wiki	pt	Se uma página à qual tenho acesso de leitura for alterada, enviar uma notificação
+if a page i have write access to is changed, send a notification	wiki	pt	Se uma página à qual tenho acesso de escrita for alterada, enviar uma notificação
+if a page title matches this regular expression, send a notification.  you can look at title, name, lang, text using name: regex	wiki	pt	Se o título de uma página corresponder a esta expressão regular, envie uma notificação.  Você pode verificar o título, nome, idioma e texto usando nome: padrão<br />Exemplos:<br />Correspondência de um nome: “nome: Manual” corresponde a todas as páginas com Manual no nome.  “name: ^Manual” corresponde a todas as páginas cujo nome <em>começa</em> com Manual, mas não OperationsManual.  “name: InfoLog|Addressbook” corresponde a qualquer página cujo nome contenha InfoLog ou Addressbook.  <br />Correspondência de idioma: “lang: en|de” corresponde a páginas em inglês e alemão.  <br />Avançado (regex): “text: \b(palavra1|palavra2|palavra3)(?:\W+\w+){1,6}?\W+(palavra1|palavra2|palavra3)\b” corresponde a qualquer página em que qualquer uma das 3 palavras esteja separada por 1 a 6 palavras.
 interwikiprefix	admin	pt	Prefixo do Wiki interno
 invalid page name.	wiki	pt	Nome de página inválido.
 load	wiki	pt	Carregar
 loads the named page in the given language, all change so far get lost !!!	wiki	pt	Carrega a página num determinado idioma. Todas as alterações feitas até ao momento, serão perdidas !!!
 lock / unlock pages	common	pt	Trancar / Destrancar páginas
 locked	wiki	pt	Trancada
+message to send	wiki	pt	Mensagem a enviar
 name wiki home link	admin	pt	Nome da página inicial do Wiki
 newer	wiki	pt	Mais recente
 no never	admin	pt	Não, nunca
@@ -64,14 +73,17 @@ only if browser supports a richtext-editor	admin	pt	Apenas se o navegador suport
 only on the first page	wiki	pt	apenas na primeira página
 page '%1' not found !!!	wiki	pt	Página '%1' não encontrada !!!
 page content	wiki	pt	Conteúdo da página
-path of the upload directory (has to be writable by the webserver!)	admin	pt	Caminho para a directoria de envio (tem de ser editável pelo servidor Web!)
-picture upload via richtext editor (leave the upload directory empty to disable the upload)	admin	pt	Imagem enviada através do editor de texto (deixar a directoria de envio vazia para desactivar o envio)
+pages i have read access	wiki	pt	Páginas às quais tenho acesso de leitura
+pages i have write access	wiki	pt	Páginas às quais tenho acesso de escrita
+pages that match this regular expression	wiki	pt	Páginas que correspondem a esta expressão regular
+person who changed the page	wiki	pt	Pessoa que alterou a página
 please contact the %1administrator%2 for assistance.	wiki	pt	Por favor, contacte o %1Administrador%2 para obter ajuda.
 preview	wiki	pt	Pré-visualização
 preview of current version	wiki	pt	Pré-visualização da versão actual
 rate control / ip blocking disabled	wiki	pt	Controlo de classificações / bloqueamento de IPs desactivados
 readable by	wiki	pt	Legível por
 readonly	admin	pt	Apenas para leitura
+rebuild links	wiki	pt	Reconstruir links
 recent changes	wiki	pt	Alterações recentes
 renames page to the given name and language	wiki	pt	Renomeia a página para o nome e idioma fornecidos
 richtext	wiki	pt	Texto
@@ -89,6 +101,7 @@ this page can not be edited.	wiki	pt	Esta página não pode ser editada.
 twin pages	wiki	pt	Répica de páginas
 unblock	wiki	pt	Desbloquear
 updates the preview	wiki	pt	Actualiza a pré-visualização
+upload directory for pasted or dragged in images in egroupware vfs (filemanager).	wiki	pt	Carregue o diretório para imagens coladas ou arrastadas no Gerenciador de Arquivos do EGroupware.
 url of the upload directory	admin	pt	URL da directoria de envio
 use this module for displaying wiki-pages	wiki	pt	Utilizar este módulo para apresentação de páginas wiki
 users	wiki	pt	utilizadores
@@ -103,6 +116,7 @@ wiki menu	wiki	pt	Menu do Wiki
 wiki startpage	wiki	pt	Página inicial do Wiki
 writable by	wiki	pt	Editável por
 yes always	admin	pt	Sim, sempre
+yes with navbar	admin	pt	Sim, com barra de navegação
 you have been denied access to this site.	wiki	pt	Não ttem acesso a este sítio
 you have entered an invalid user name.	wiki	pt	Inseriu um nome de utilizador inválido
 you have exeeded the number of pages you are allowed to visit in a given period of time. please return later.	wiki	pt	Excedeu o número de páginas que está autorizado a visitar por um determinado período de tempo. Por favor, volte mais tarde.

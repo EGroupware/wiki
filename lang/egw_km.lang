@@ -3,7 +3,6 @@
 add document to category	wiki	km	បន្ថែមឯកសារទៅប្រភេទ
 added	wiki	km	បន្ថែម
 administration features are disabled for this wiki.	wiki	km	មុខងាររដ្ឋបាលត្រូវបានបិទសម្រាប់វិគីនេះ។
-admins	wiki	km	អ្នកគ្រប់គ្រង
 after how many days should old versions of a page be removed (0 for never)	admin	km	បន្ទាប់ពីប៉ុន្មានថ្ងៃដែលកំណែចាស់នៃទំព័រមួយគួរតែត្រូវបានដកចេញ 0 = មិនដែល។
 allow anonymous access	admin	km	អនុញ្ញាតឱ្យចូលប្រើអនាមិក
 allow creating new pages (blank for all)	wiki	km	អនុញ្ញាតឱ្យបង្កើតទំព័រថ្មី (ទទេសម្រាប់ទាំងអស់)

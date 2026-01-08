@@ -3,9 +3,9 @@
 add document to category	wiki	sv	Lägg till dokument i kategorin
 added	wiki	sv	Tillagd
 administration features are disabled for this wiki.	wiki	sv	Administrations möjligheterna är inaktiverade i denna Wiki.
-admins	wiki	sv	Adminstratörer
 after how many days should old versions of a page be removed (0 for never)	admin	sv	Efter hur många dagar ska gamla versioner av sidor raderas (0 betyder aldrig)
 allow anonymous access	admin	sv	Tillåt anonym åtkomst
+allow creating new pages (blank for all)	wiki	sv	Tillåt att skapa nya sidor (tomt för alla)
 anonymous password	admin	sv	Anonyma sessioners lösenord
 anonymous session type	admin	sv	Anonyma sessioners rättigheter
 anonymous username	admin	sv	Anonyma sessioners användarnamn
@@ -14,6 +14,7 @@ block	wiki	sv	Spärra
 block / unblock hosts	common	sv	Spärra/tillåt klienter
 blocked ip address ranges	wiki	sv	Spärra IP adress spann
 cancel without saving	wiki	sv	Avbryt utan att spara
+change notification	wiki	sv	Ändringsmeddelande
 changed	wiki	sv	Ändrad
 changes by last author	wiki	sv	Ändringar av senaste författare
 choose your current time here, so the server may figure out what time zone you are in.	wiki	sv	Välj din nuvarande tid så att servern kan hålla reda på vilken i tidzon du befinner dig.
@@ -21,6 +22,10 @@ columns	wiki	sv	Kolumner
 compute difference	wiki	sv	Utarbeta skillnader
 converts the page to richtext	wiki	sv	Konvertera sidan till richtext
 current version	wiki	sv	Aktuell version
+default read permission	wiki	sv	Standardläsbehörighet
+default read permissions for creating a new page	preferences	sv	Standardläsbehörighet för att skapa en ny sida
+default write permission	preferences	sv	Standardskrivbehörighet
+default write permissions for creating a new page	preferences	sv	Standardskrivbehörighet för att skapa en ny sida
 deleted	wiki	sv	Raderad
 deletes this page	wiki	sv	Raderar sidan
 difference between versions	wiki	sv	Skillnader mellan versioner
@@ -47,12 +52,16 @@ history	wiki	sv	Historik
 history display should show <em>all</em> changes made by the latest author.  otherwise, show only the last change made.	wiki	sv	Historik ska visa <em>alla</em> ändringar gjorda av senaste författare. Visa annars endast senaste ändring.
 history lists	wiki	sv	Ändringshistorik
 history of	wiki	sv	Historik för
+if a page i have read access to is changed, send a notification	wiki	sv	Om en sida som jag har läsbehörighet till ändras, skicka en avisering
+if a page i have write access to is changed, send a notification	wiki	sv	Om en sida som jag har skrivbehörighet till ändras, skicka en avisering
+if a page title matches this regular expression, send a notification.  you can look at title, name, lang, text using name: regex	wiki	sv	Om en sidtitel matchar detta reguljära uttryck, skicka en avisering.  Du kan titta på titel, namn, språk, text med hjälp av namn: mönster<br />Exempel:<br />Matchning av namn: ”namn: Manual” matchar alla sidor med Manual i namnet.  ”name: ^Manual” matchar alla sidor där namnet <em>börjar</em> med Manual, men inte OperationsManual.  ”name: InfoLog|Addressbook” matchar alla sidor där namnet innehåller InfoLog eller Addressbook.  <br />Matchande språk: ”lang: en|de” matchar engelska och tyska sidor.  <br />Avancerat (regex): ”text: \b(word1|word2|word3)(?:\W+\w+){1,6}?\W+(word1|word2|word3)\b” matchar alla sidor där något av de tre orden förekommer med 1 till 6 ords mellanrum.
 interwikiprefix	admin	sv	InterWikiPrefix
 invalid page name.	wiki	sv	Ogiltigt sidnamn
 load	wiki	sv	Ladda
 loads the named page in the given language, all change so far get lost !!!	wiki	sv	Laddar sida på angivet språk, alla ändringar hittills går förlorade!
 lock / unlock pages	common	sv	Lås/öppna sidor
 locked	wiki	sv	Låst
+message to send	wiki	sv	Meddelande att skicka
 name wiki home link	admin	sv	Namnge Wiki hemlänk
 newer	wiki	sv	Aldrig
 no never	admin	sv	Aldrig
@@ -63,14 +72,18 @@ on all pages	wiki	sv	På alla sidor
 only if browser supports a richtext-editor	admin	sv	Bara om webbläsaren stödjer richtext redigering
 only on the first page	wiki	sv	Bara på första sidan
 page '%1' not found !!!	wiki	sv	Sidan '%1' kunde inte hittas
-path of the upload directory (has to be writable by the webserver!)	admin	sv	Sökväg till uppladdnings katalogen (måste vara skrivbar av webbservern)
-picture upload via richtext editor (leave the upload directory empty to disable the upload)	admin	sv	Bilduppladdning via richtext editor (lämnas tomt för att inaktivera uppladdning)
+page content	wiki	sv	Sidans innehåll
+pages i have read access	wiki	sv	Sidor som jag har läsbehörighet till
+pages i have write access	wiki	sv	Sidor som jag har skrivbehörighet till
+pages that match this regular expression	wiki	sv	Sidor som matchar detta reguljära uttryck
+person who changed the page	wiki	sv	Person som ändrade sidan
 please contact the %1administrator%2 for assistance.	wiki	sv	Var god kontakta %1Administratör%2 för hjälp.
 preview	wiki	sv	Förhandsgranska
 preview of current version	wiki	sv	Förhandsgranska aktuell version
 rate control / ip blocking disabled	wiki	sv	"Rate control" / IP blockering inaktiverad
 readable by	wiki	sv	Läsbar av
 readonly	admin	sv	Skrivskyddad
+rebuild links	wiki	sv	Återuppbygg länkar
 recent changes	wiki	sv	Senaste ändringar
 renames page to the given name and language	wiki	sv	Byter sidans namn och språk
 richtext	wiki	sv	Richtext
@@ -88,6 +101,7 @@ this page can not be edited.	wiki	sv	Denna sida kan inte ändras
 twin pages	wiki	sv	Dublett
 unblock	wiki	sv	Öppna
 updates the preview	wiki	sv	Uppdatera förhandsgranskning
+upload directory for pasted or dragged in images in egroupware vfs (filemanager).	wiki	sv	Ladda upp katalog för klistrade eller dragna bilder i EGroupware File Manager.
 url of the upload directory	admin	sv	URL till uppladdnings katalogen
 use this module for displaying wiki-pages	wiki	sv	Använd modulen för att visa wikisidor
 users	wiki	sv	Användare

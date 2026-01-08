@@ -3,9 +3,9 @@
 add document to category	wiki	zh	添加文档到类别
 added	wiki	zh	已添加
 administration features are disabled for this wiki.	wiki	zh	该 Wiki 的管理功能特性已经禁用。
-admins	wiki	zh	管理员
 after how many days should old versions of a page be removed (0 for never)	admin	zh	页面的旧版本应该在多少天后被删除？(0 为从不)
 allow anonymous access	admin	zh	允许匿名访问
+allow creating new pages (blank for all)	wiki	zh	允许创建新页面（留空表示全部允许）
 anonymous password	admin	zh	匿名访问密码
 anonymous session type	admin	zh	匿名会话类型
 anonymous username	admin	zh	匿名用户名
@@ -14,6 +14,7 @@ block	wiki	zh	封禁
 block / unblock hosts	common	zh	封禁/解除主机封禁
 blocked ip address ranges	wiki	zh	封禁 IP 地址段
 cancel without saving	wiki	zh	取消并放弃保存
+change notification	wiki	zh	变更通知
 changed	wiki	zh	已更改
 changes by last author	wiki	zh	最近进行更改的作者
 choose your current time here, so the server may figure out what time zone you are in.	wiki	zh	在此选择您的当前时间，服务器会自动计算出您所在的时区。
@@ -21,6 +22,10 @@ columns	wiki	zh	列
 compute difference	wiki	zh	计算差异
 converts the page to richtext	wiki	zh	转换到 RichText 格式
 current version	wiki	zh	当前版本
+default read permission	wiki	zh	默认读取权限
+default read permissions for creating a new page	preferences	zh	创建新页面的默认读取权限
+default write permission	preferences	zh	默认写入权限
+default write permissions for creating a new page	preferences	zh	创建新页面的默认写入权限
 deleted	wiki	zh	已删除
 deletes this page	wiki	zh	删除此页
 difference between versions	wiki	zh	版本差异
@@ -47,12 +52,16 @@ history	wiki	zh	历史记录
 history display should show <em>all</em> changes made by the latest author.  otherwise, show only the last change made.	wiki	zh	历史记录将显示<em>所有</em>由最后作者所作的更改。否则，仅显示最后所做更改。
 history lists	wiki	zh	历史列表
 history of	wiki	zh	历史记录
+if a page i have read access to is changed, send a notification	wiki	zh	若我具有读取权限的页面被修改，发送通知
+if a page i have write access to is changed, send a notification	wiki	zh	若我具有写入权限的页面被修改，发送通知
+if a page title matches this regular expression, send a notification.  you can look at title, name, lang, text using name: regex	wiki	zh	若页面标题匹配此正则表达式，则发送通知。可通过 name: 模式查询标题、名称、语言、文本<br />示例：<br />匹配名称：“name: Manual” 匹配名称中包含 Manual 的所有页面。 “name: ^Manual” 匹配所有名称以 Manual 开头的页面（如 Manual 操作手册），但不包含 OperationsManual。 “name: InfoLog|Addressbook” 匹配名称包含 InfoLog 或 Addressbook 的页面。  <br />匹配语言：“lang: en|de” 匹配英文和德文页面。 <br />高级（正则表达式）：“text: \b(word1|word2|word3)(?:\W+\w+){1,6}?\W+(word1|word2|word3)\b” 匹配任意页面，其中三个词以1至6个单词为间隔出现。
 interwikiprefix	admin	zh	InterWiki 链接前缀
 invalid page name.	wiki	zh	错误页面名称。
 load	wiki	zh	载入
 loads the named page in the given language, all change so far get lost !!!	wiki	zh	载入指定语言的命名页，所有的更改将丢失！
 lock / unlock pages	common	zh	锁定/取消锁定页
 locked	wiki	zh	被锁定
+message to send	wiki	zh	待发送消息
 name wiki home link	admin	zh	Wiki 首页链接名称
 newer	wiki	zh	更新
 no never	admin	zh	从不
@@ -64,14 +73,17 @@ only if browser supports a richtext-editor	admin	zh	只有当浏览器支持 Ric
 only on the first page	wiki	zh	只在第一页
 page '%1' not found !!!	wiki	zh	找不到 '%1' 页！
 page content	wiki	zh	网页内容
-path of the upload directory (has to be writable by the webserver!)	admin	zh	上传目录的路径(能被Web服务器写入！)
-picture upload via richtext editor (leave the upload directory empty to disable the upload)	admin	zh	通过 RichText-编辑器上传图片(上传目录留空表示禁用上传)
+pages i have read access	wiki	zh	我具有读取权限的页面
+pages i have write access	wiki	zh	我具有写入权限的页面
+pages that match this regular expression	wiki	zh	匹配此正则表达式的页面
+person who changed the page	wiki	zh	页面修改者
 please contact the %1administrator%2 for assistance.	wiki	zh	请联系%1系统管理员%2帮助。
 preview	wiki	zh	预览
 preview of current version	wiki	zh	预览当前版本
 rate control / ip blocking disabled	wiki	zh	评分控制/禁用 IP 封禁
 readable by	wiki	zh	可读用户(组)：
 readonly	admin	zh	只读
+rebuild links	wiki	zh	重建链接
 recent changes	wiki	zh	最近更改
 renames page to the given name and language	wiki	zh	重命名该页为指定的名称和语言
 richtext	wiki	zh	Richtext
@@ -89,6 +101,7 @@ this page can not be edited.	wiki	zh	该页不能编辑。
 twin pages	wiki	zh	相似页
 unblock	wiki	zh	解除封禁
 updates the preview	wiki	zh	更新预览
+upload directory for pasted or dragged in images in egroupware vfs (filemanager).	wiki	zh	EGroupware 文件管理器中粘贴或拖拽图片的上传目录。
 url of the upload directory	admin	zh	上传目录的网址
 use this module for displaying wiki-pages	wiki	zh	使用该模块显示 Wiki-页面
 users	wiki	zh	用户

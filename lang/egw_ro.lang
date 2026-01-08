@@ -1,0 +1,19 @@
+allow creating new pages (blank for all)	wiki	ro	Permite crearea de pagini noi (goale pentru toți)
+change notification	wiki	ro	Notificare de modificare
+default read permission	wiki	ro	Permisiune de citire implicită
+default read permissions for creating a new page	preferences	ro	Permisiuni de citire implicite pentru crearea unei pagini noi
+default write permission	preferences	ro	Permisiune de scriere implicită
+default write permissions for creating a new page	preferences	ro	Permisiuni de scriere implicite pentru crearea unei pagini noi
+difference between versions	wiki	ro	Diferența între versiuni
+if a page i have read access to is changed, send a notification	wiki	ro	Dacă o pagină la care am acces de citire este modificată, trimiteți o notificare
+if a page i have write access to is changed, send a notification	wiki	ro	Dacă o pagină la care am acces de scriere este modificată, trimiteți o notificare
+if a page title matches this regular expression, send a notification.  you can look at title, name, lang, text using name: regex	wiki	ro	Dacă titlul unei pagini corespunde acestei expresii regulate, trimiteți o notificare.  Puteți consulta titlul, numele, limba, textul folosind numele: model<br />Exemple:<br />Potrivirea unui nume: „nume: Manual” se potrivește cu fiecare pagină care conține Manual în nume.  „name: ^Manual” corespunde tuturor paginilor al căror nume <em>începe</em> cu Manual, dar nu și OperationsManual.  „name: InfoLog|Addressbook” corespunde oricărei pagini al cărei nume conține InfoLog sau Addressbook.  <br />Corespondență limbă: „lang: en|de” corespunde paginilor în engleză și germană.  <br />Avansat (regex): „text: \b(cuvânt1|cuvânt2|cuvânt3)(?:\W+\w+){1,6}?\W+(cuvânt1|cuvânt2|cuvânt3)\b” potrivește orice pagină în care oricare dintre cele 3 cuvinte sunt la o distanță de 1 până la 6 cuvinte.
+message to send	wiki	ro	Mesaj de trimis
+page content	wiki	ro	Conținutul paginii
+pages i have read access	wiki	ro	Pagini la care am acces de citire
+pages i have write access	wiki	ro	Pagini la care am acces de scriere
+pages that match this regular expression	wiki	ro	Pagini care corespund acestei expresii regulate
+person who changed the page	wiki	ro	Persoana care a modificat pagina
+rebuild links	wiki	ro	Reconstruiți linkurile
+upload directory for pasted or dragged in images in egroupware vfs (filemanager).	wiki	ro	Încărcați directorul pentru imaginile lipite sau glisate în EGroupware File Manager.
+yes with navbar	admin	ro	Da, cu bara de navigare

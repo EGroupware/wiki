@@ -1,0 +1,18 @@
+allow creating new pages (blank for all)	wiki	lt	Leisti kurti naujus puslapius (tuščius visiems)
+change notification	wiki	lt	Pakeitimų pranešimas
+default read permission	wiki	lt	Numatytasis skaitymo leidimas
+default read permissions for creating a new page	preferences	lt	Numatytasis skaitymo leidimas naujos puslapio kūrimui
+default write permission	preferences	lt	Numatytasis rašymo leidimas
+default write permissions for creating a new page	preferences	lt	Numatytasis rašymo leidimas naujos puslapio kūrimui
+difference between versions	wiki	lt	Skirtumas tarp versijų
+if a page i have read access to is changed, send a notification	wiki	lt	Jei puslapis, kurį galiu skaityti, yra pakeistas, atsiųskite pranešimą
+if a page i have write access to is changed, send a notification	wiki	lt	Jei puslapis, kurį galiu redaguoti, yra pakeistas, atsiųskite pranešimą
+if a page title matches this regular expression, send a notification.  you can look at title, name, lang, text using name: regex	wiki	lt	Jei puslapio pavadinimas atitinka šį reguliarųjį išraišką, išsiųskite pranešimą.  Galite peržiūrėti pavadinimą, vardą, kalbą, tekstą naudodami vardą: modelį<br />Pavyzdžiai:<br />Atitikimas vardui: „vardas: Vadovas“ atitinka kiekvieną puslapį, kurio pavadinime yra žodis „Vadovas“.  „name: ^Manual“ atitinka kiekvieną puslapį, kurio pavadinimas <em>prasideda</em> žodžiu „Manual“, bet ne „OperationsManual“.  „name: InfoLog|Addressbook“ atitinka bet kurį puslapį, kurio pavadinime yra žodžiai „InfoLog“ arba „Addressbook“.  <br />Atitikimas kalbai: „lang: en|de“ atitinka anglų ir vokiečių kalbos puslapius.  <br />Išplėstinis (regex): „text: \b(word1|word2|word3)(?:\W+\w+){1,6}?\W+(word1|word2|word3)\b“ atitinka bet kurį puslapį, kuriame bet kuris iš 3 žodžių yra 1–6 žodžių atstumu vienas nuo kito.
+message to send	wiki	lt	Siųstinas pranešimas
+page content	wiki	lt	Puslapio turinys
+pages i have read access	wiki	lt	Puslapiai, kuriuos galiu skaityti
+pages i have write access	wiki	lt	Puslapiai, kuriuos galiu rašyti
+pages that match this regular expression	wiki	lt	Puslapiai, atitinkantys šį reguliarųjį išraišką
+person who changed the page	wiki	lt	Asmuo, kuris pakeitė puslapį
+rebuild links	wiki	lt	Atkurti nuorodas
+upload directory for pasted or dragged in images in egroupware vfs (filemanager).	wiki	lt	Įkelkite katalogą, kuriame yra įklijuoti arba perkelti vaizdai EGroupware failų tvarkyklėje.

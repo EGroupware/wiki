@@ -3,7 +3,6 @@
 add document to category	wiki	zh-tw	新增這個類別的文件
 added	wiki	zh-tw	已經新增
 administration features are disabled for this wiki.	wiki	zh-tw	管理功能是被關閉的。
-admins	wiki	zh-tw	管理者
 after how many days should old versions of a page be removed (0 for never)	admin	zh-tw	一個舊版本的頁面要保留多少天？（0表示永久保留）
 allow anonymous access	admin	zh-tw	允許訪客存取
 anonymous password	admin	zh-tw	訪客密碼
@@ -64,8 +63,6 @@ only if browser supports a richtext-editor	admin	zh-tw	請確認您的瀏覽器�
 only on the first page	wiki	zh-tw	只在首頁
 page '%1' not found !!!	wiki	zh-tw	找不到 '%1' 頁面！
 page content	wiki	zh-tw	網頁內容
-path of the upload directory (has to be writable by the webserver!)	admin	zh-tw	上傳檔案的路徑（網頁伺服器要能夠寫入！）
-picture upload via richtext editor (leave the upload directory empty to disable the upload)	admin	zh-tw	透過所見即所得編輯器上傳圖片（上傳資料夾空白表示停用上傳功能）
 please contact the %1administrator%2 for assistance.	wiki	zh-tw	請聯絡%1管理員%2。
 preview	wiki	zh-tw	預覽
 preview of current version	wiki	zh-tw	預覽目前版本

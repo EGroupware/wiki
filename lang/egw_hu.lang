@@ -3,9 +3,9 @@
 add document to category	wiki	hu	Dokumentum kategorizálása
 added	wiki	hu	Hozzáadva
 administration features are disabled for this wiki.	wiki	hu	Az adminisztrációs lehetőségek ebben a wikiben ki vannak kapcsolva.
-admins	wiki	hu	adminisztrátorok
 after how many days should old versions of a page be removed (0 for never)	admin	hu	Hány napig legyenek megőrizve egy oldal korábbi változatai (a 0 azt jelenti, hogy örökké)
 allow anonymous access	admin	hu	anoním hozzáférések engedélyezése
+allow creating new pages (blank for all)	wiki	hu	Új oldalak létrehozásának engedélyezése (üresen hagyva az összeset)
 anonymous password	admin	hu	Anoním jelszó
 anonymous session type	admin	hu	Anoním Viszony Tpus
 anonymous username	admin	hu	anoním felhasználónév
@@ -14,6 +14,7 @@ block	wiki	hu	Blokk
 block / unblock hosts	common	hu	Hosztok blokkolása / engedélyezése
 blocked ip address ranges	wiki	hu	Blokkol IP címtartomány
 cancel without saving	wiki	hu	Változtatások eldobása
+change notification	wiki	hu	Változás értesítése
 changed	wiki	hu	Változott
 changes by last author	wiki	hu	Az utolsó szerző módosításai
 choose your current time here, so the server may figure out what time zone you are in.	wiki	hu	Válassza ki az aktuális időpontot, így a kiszolgáló kitalálhatja az alkalmazandó időzónát.
@@ -21,6 +22,10 @@ columns	wiki	hu	Oszlopok
 compute difference	wiki	hu	Különbség számítása
 converts the page to richtext	wiki	hu	Oldal konvertálása ritchtext formába
 current version	wiki	hu	Jelénlegi változat
+default read permission	wiki	hu	Alapértelmezett olvasási jogosultság
+default read permissions for creating a new page	preferences	hu	Alapértelmezett olvasási jogosultságok új oldal létrehozásához
+default write permission	preferences	hu	Alapértelmezett írási jogosultság
+default write permissions for creating a new page	preferences	hu	Alapértelmezett írási jogosultságok új oldal létrehozásához
 deleted	wiki	hu	Törölt
 deletes this page	wiki	hu	Oldal törlése
 difference between versions	wiki	hu	Változatonkénti eltérések
@@ -47,12 +52,16 @@ history	wiki	hu	napló
 history display should show <em>all</em> changes made by the latest author.  otherwise, show only the last change made.	wiki	hu	A dokumentum történet megjeleníti az <em>összes</em> változatot a legutóbbi szerzőtől. Egyébként csak a legutolsó változást jeleníti meg.
 history lists	wiki	hu	Naplók
 history of	wiki	hu	Történet
+if a page i have read access to is changed, send a notification	wiki	hu	Ha egy olyan oldal, amelyhez olvasási hozzáférésem van, megváltozik, küldjön értesítést
+if a page i have write access to is changed, send a notification	wiki	hu	Ha egy olyan oldal, amelyhez írási hozzáférésem van, megváltozik, küldjön értesítést
+if a page title matches this regular expression, send a notification.  you can look at title, name, lang, text using name: regex	wiki	hu	Ha egy oldal címe megfelel ennek a reguláris kifejezésnek, küldjön értesítést.  A cím, név, nyelv, szöveg megtekinthető a name: pattern<br />Példák:<br />Név egyezés: „name: Manual” minden olyan oldalt megtalál, amelynek neve tartalmazza a Manual szót.  A „name: ^Manual” minden olyan oldalt talál, amelynek neve Manual-lal kezdődik, de nem OperationsManual-lal.  A „name: InfoLog|Addressbook” minden olyan oldalt talál, amelynek neve tartalmazza az InfoLog vagy Addressbook szót.  <br />Név egyezése: A „lang: en|de” az angol és német nyelvű oldalakat találja meg.  <br />Haladó (regex): „text: \b(word1|word2|word3)(?:\W+\w+){1,6}?\W+(word1|word2|word3)\b” minden olyan oldalt talál, amelyben a 3 szó közül bármelyik 1-6 szóval elválasztva szerepel.
 interwikiprefix	admin	hu	InterWikiElőtag
 invalid page name.	wiki	hu	Érvénytelen oldalnév
 load	wiki	hu	Betöltés
 loads the named page in the given language, all change so far get lost !!!	wiki	hu	Az adott oldal megadott nyelvi változatának betöltése, az összes változást elveszíti !!!
 lock / unlock pages	common	hu	Oldalak zárolása / engedélyezése
 locked	wiki	hu	Zárolt
+message to send	wiki	hu	Küldendő üzenet
 name wiki home link	admin	hu	Wiki kezdőlap elnevezése
 newer	wiki	hu	Újabb
 no never	admin	hu	Nem, soha
@@ -64,14 +73,17 @@ only if browser supports a richtext-editor	admin	hu	Csak ha a böngésző támog
 only on the first page	wiki	hu	csak az első oldalon
 page '%1' not found !!!	wiki	hu	'%1' oldal nem található !!!
 page content	wiki	hu	Lap tartalom
-path of the upload directory (has to be writable by the webserver!)	admin	hu	Feltöltési könyvtár elérési útja (a webszerver által írhatónak kell lennie).
-picture upload via richtext editor (leave the upload directory empty to disable the upload)	admin	hu	Képfeltöltés a richtext szerkesztővel (hagyja üresen a feltöltési könyvtár útvonalát a feltöltés letiltásához).
+pages i have read access	wiki	hu	Oldalak, amelyekhez olvasási jogom van
+pages i have write access	wiki	hu	Oldalak, amelyekhez írási jogom van
+pages that match this regular expression	wiki	hu	Azok az oldalak, amelyek megfelelnek ennek a reguláris kifejezésnek
+person who changed the page	wiki	hu	Aki megváltoztatta az oldalt
 please contact the %1administrator%2 for assistance.	wiki	hu	Kérjen segítséget az %1Adminisztrátortól%2.
 preview	wiki	hu	Előnézet
 preview of current version	wiki	hu	Jelenlegi változat előnézete
 rate control / ip blocking disabled	wiki	hu	Arány ellenőrzés / IP blokkolás tiltva
 readable by	wiki	hu	Olvashatja
 readonly	admin	hu	csak olvasható
+rebuild links	wiki	hu	Linkek újjáépítése
 recent changes	wiki	hu	Legfrissebb változások
 renames page to the given name and language	wiki	hu	Az oldal átnevezése a megadott névre és nyelvre
 richtext	wiki	hu	Ritchtext
@@ -89,6 +101,7 @@ this page can not be edited.	wiki	hu	Ez az oldal nem szerkeszthető.
 twin pages	wiki	hu	Iker oldalak
 unblock	wiki	hu	Engedélyez
 updates the preview	wiki	hu	Előnézet frissítése
+upload directory for pasted or dragged in images in egroupware vfs (filemanager).	wiki	hu	Feltöltési könyvtár az EGroupware Fájlkezelőbe beillesztett vagy áthúzott képekhez.
 url of the upload directory	admin	hu	A feltöltési könyvár URL-je
 use this module for displaying wiki-pages	wiki	hu	Használja ezt a module a wiki oldalak megjelenítéséhez
 users	wiki	hu	felhasználók

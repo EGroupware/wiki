@@ -3,9 +3,9 @@
 add document to category	wiki	it	Aggiungi documento alla categoria
 added	wiki	it	Aggiunto
 administration features are disabled for this wiki.	wiki	it	Le opzioni di amministrazione sono disabilitate per questo Wiki
-admins	wiki	it	Amministratori
 after how many days should old versions of a page be removed (0 for never)	admin	it	Dopo quanti giorni le vecchie versioni della pagina dovrebbe essere rimossa (0 per mai)
 allow anonymous access	admin	it	Permetti accesso anonimo
+allow creating new pages (blank for all)	wiki	it	Consenti la creazione di nuove pagine (vuote per tutti)
 anonymous password	admin	it	Password per anonimo
 anonymous session type	admin	it	Tipo sessione per anonimo
 anonymous username	admin	it	Username per anonimo
@@ -14,6 +14,7 @@ block	wiki	it	Blocca
 block / unblock hosts	common	it	Blocca / Sblocca host
 blocked ip address ranges	wiki	it	Intervalli indirizzi IP bloccati
 cancel without saving	wiki	it	Annulla senza salvare
+change notification	wiki	it	Notifica di modifica
 changed	wiki	it	Cambiato
 changes by last author	wiki	it	Cambiamenti fatti dall'ultimo autore
 choose your current time here, so the server may figure out what time zone you are in.	wiki	it	Scegli la tua ora attuale qui, cosicché il server può capire in che fuso orario sei.
@@ -21,6 +22,10 @@ columns	wiki	it	Colonne
 compute difference	wiki	it	Calcola la differenza
 converts the page to richtext	wiki	it	Converte la pagina in RICHTEXT
 current version	wiki	it	Versione Attuale
+default read permission	wiki	it	Autorizzazione di lettura predefinita
+default read permissions for creating a new page	preferences	it	Autorizzazioni di lettura predefinite per la creazione di una nuova pagina
+default write permission	preferences	it	Autorizzazione di scrittura predefinita
+default write permissions for creating a new page	preferences	it	Autorizzazioni di scrittura predefinite per la creazione di una nuova pagina
 deleted	wiki	it	Cancellato
 deletes this page	wiki	it	Cancella questa pagina
 difference between versions	wiki	it	Differenze tra le versioni
@@ -47,12 +52,16 @@ history	wiki	it	Cronologia
 history display should show <em>all</em> changes made by the latest author.  otherwise, show only the last change made.	wiki	it	La Cronologia deve mostrare <em>tutte</em> le modifiche fatte dall'ultimo autore. Altrimenti, mostrerà solo l'ultima modifica.
 history lists	wiki	it	Elenco cronologico
 history of	wiki	it	Cronologia di
+if a page i have read access to is changed, send a notification	wiki	it	Se una pagina a cui ho accesso in lettura viene modificata, invia una notifica
+if a page i have write access to is changed, send a notification	wiki	it	Se una pagina a cui ho accesso in scrittura viene modificata, invia una notifica
+if a page title matches this regular expression, send a notification.  you can look at title, name, lang, text using name: regex	wiki	it	Se il titolo di una pagina corrisponde a questa espressione regolare, invia una notifica.  Puoi controllare titolo, nome, lingua, testo utilizzando nome: modello<br />Esempi:<br />Corrispondenza di un nome: “nome: Manuale” corrisponde a tutte le pagine con Manuale nel nome.  “name: ^Manual” corrisponde a tutte le pagine il cui nome <em>inizia</em> con Manual, ma non OperationsManual.  “name: InfoLog|Addressbook” corrisponde a tutte le pagine il cui nome contiene InfoLog o Addressbook.  <br />Corrispondenza lingua: “lang: en|de” corrisponde alle pagine in inglese e tedesco.  <br />Avanzato (regex): “testo: \b(parola1|parola2|parola3)(?:\W+\w+){1,6}?\W+(parola1|parola2|parola3)\b” trova tutte le pagine in cui una delle 3 parole è separata da 1 a 6 parole.
 interwikiprefix	admin	it	Prefisso interWiki
 invalid page name.	wiki	it	Nome pagina non valido
 load	wiki	it	Carica
 loads the named page in the given language, all change so far get lost !!!	wiki	it	Carica la pagina nella lingua stabilita, tutti i cambiamenti andranno persi !!!
 lock / unlock pages	common	it	Blocca / Sblocca Pagine
 locked	wiki	it	Bloccato
+message to send	wiki	it	Messaggio da inviare
 name wiki home link	admin	it	Nome collegamento HOME del Wiki
 newer	wiki	it	Più recente
 no never	admin	it	No mai
@@ -64,14 +73,17 @@ only if browser supports a richtext-editor	admin	it	Solo se il browser supporta 
 only on the first page	wiki	it	solo sulla prima pagina
 page '%1' not found !!!	wiki	it	Pagina '%1' non trovata !!!
 page content	wiki	it	Contenuto pagina
-path of the upload directory (has to be writable by the webserver!)	admin	it	Percorso della cartella di upload (deve essere scrivibile dal Server web)
-picture upload via richtext editor (leave the upload directory empty to disable the upload)	admin	it	Upload delle immagini attraverso l'editor richtext (lascia la cartella di upload vuota per disabilitare l'upload)
+pages i have read access	wiki	it	Pagine a cui ho accesso in lettura
+pages i have write access	wiki	it	Pagine a cui ho accesso in scrittura
+pages that match this regular expression	wiki	it	Pagine che corrispondono a questa espressione regolare
+person who changed the page	wiki	it	Persona che ha modificato la pagina
 please contact the %1administrator%2 for assistance.	wiki	it	Prego contatta l' %1Amministratore%2 per assistenza.
 preview	wiki	it	Anteprima
 preview of current version	wiki	it	Anteprima della Versione Attuale
 rate control / ip blocking disabled	wiki	it	Controllo Valutazioni / Blocco IP disabilitato
 readable by	wiki	it	Leggibile da
 readonly	admin	it	Sola lettura
+rebuild links	wiki	it	Ricostruisci collegamenti
 recent changes	wiki	it	Modifiche Recenti
 renames page to the given name and language	wiki	it	Rinomina la pgina con il nome dato e la lingua
 richtext	wiki	it	Richtext
@@ -89,6 +101,7 @@ this page can not be edited.	wiki	it	Questa pagina non può essere modificata.
 twin pages	wiki	it	Pagine gemelle
 unblock	wiki	it	Sblocca
 updates the preview	wiki	it	Aggiorna l'anteprima
+upload directory for pasted or dragged in images in egroupware vfs (filemanager).	wiki	it	Carica la directory delle immagini incollate o trascinate nel File Manager di EGroupware.
 url of the upload directory	admin	it	URL della cartella di upload
 use this module for displaying wiki-pages	wiki	it	usa questo modulo per visualizzare le pagine wiki
 users	wiki	it	utenti

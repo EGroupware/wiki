@@ -3,7 +3,6 @@
 add document to category	wiki	de	Dokument zu dieser Kategorie hinzufügen
 added	wiki	de	Zugefügt
 administration features are disabled for this wiki.	wiki	de	Administrationszugang ist ausgeschaltet für diese Wiki.
-admins	wiki	de	Administratoren
 after how many days should old versions of a page be removed (0 for never)	admin	de	Nach wie vielen Tagen sollen alter Versionen einer Seite gelöscht werden (0 für niemals)
 allow anonymous access	admin	de	Anonymen Zugriff erlauben
 allow creating new pages (blank for all)	wiki	de	Erlaube neue Seiten anzulegen (leer für alle)
@@ -55,6 +54,7 @@ history lists	wiki	de	Bearbeitungshistorie
 history of	wiki	de	Bearbeitungshistorie von
 if a page i have read access to is changed, send a notification	wiki	de	Wenn eine Seite verändert wurde, zu der ich Leseberechtigung besitze, sendet das System eine Benachrichtigung.
 if a page i have write access to is changed, send a notification	wiki	de	Wenn eine Seite verändert wurde, zu der ich Schreibberechtigung besitze, sendet das System eine Benachrichtigung.
+if a page title matches this regular expression, send a notification.  you can look at title, name, lang, text using name: regex	wiki	de	Wenn ein Seitentitel diesem regulären Ausdruck entspricht, senden Sie eine Benachrichtigung.  Sie können Titel, Name, Sprache und Text mit name: pattern anzeigen.  Beispiele:  Übereinstimmung mit einem Namen: „name: Manual” findet alle Seiten, deren Name „Manual” enthält.  „name: ^Handbuch“ passt auf jede Seite, deren Name mit „Handbuch“ beginnt, aber nicht auf „Betriebshandbuch“.  „name: InfoLog|Adressbuch“ passt auf jede Seite, deren Name „InfoLog“ oder „Adressbuch“ enthält.  <br />Übereinstimmende Sprache: „lang: en|de“ passt auf englische und deutsche Seiten.  <br />Erweitert (regex): „text: \b(word1|word2|word3)(?:\W+\w+){1,6}?\W+(word1|word2|word3)\b“ findet alle Seiten, auf denen eines der drei Wörter in einem Abstand von 1 bis 6 Wörtern vorkommt.
 interwikiprefix	admin	de	InterWikiPrefix
 invalid page name.	wiki	de	Ungültiger Seitenname.
 load	wiki	de	Laden

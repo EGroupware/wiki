@@ -3,9 +3,9 @@
 add document to category	wiki	ru	Добавить документ в категорию
 added	wiki	ru	Добавлено
 administration features are disabled for this wiki.	wiki	ru	Административные настройки в этом Вики отключены
-admins	wiki	ru	Администраторы
 after how many days should old versions of a page be removed (0 for never)	admin	ru	Через сколько дней старые версии страницы должны быть удалены (0 = никогда)
 allow anonymous access	admin	ru	Разрешить анонимный доступ
+allow creating new pages (blank for all)	wiki	ru	Разрешить создание новых страниц (пустое поле для всех)
 anonymous password	admin	ru	Пароль анонимного пользователя
 anonymous session type	admin	ru	Тип анонимного сеанса
 anonymous username	admin	ru	Имя анонимного пользователя
@@ -76,9 +76,7 @@ page content	wiki	ru	Содержимое страницы
 pages i have read access	wiki	ru	Страницы к которым я имею доступ на чтение
 pages i have write access	wiki	ru	Страницы к которым я имею доступ на запись
 pages that match this regular expression	wiki	ru	Страницы соответствующие регулярному выражению
-path of the upload directory (has to be writable by the webserver!)	admin	ru	Путь к каталогу выгрузки (должен быть доступен на запись веб-сервром!)
 person who changed the page	wiki	ru	Кто изменил страницу
-picture upload via richtext editor (leave the upload directory empty to disable the upload)	admin	ru	Выгрузка изображения с помощью редактора richtext (оставить каталог выгрузки незаполненным чтобы отключить выгрузку)
 please contact the %1administrator%2 for assistance.	wiki	ru	Пожалуйста, обратитесь к %1Администратору%2 для помощи.
 preview	wiki	ru	Предварительный просмотр
 preview of current version	wiki	ru	Предварительный просмотр текущей версии
@@ -103,6 +101,7 @@ this page can not be edited.	wiki	ru	Эта страница не может б�
 twin pages	wiki	ru	Страницы-близнецы
 unblock	wiki	ru	Разблокировать
 updates the preview	wiki	ru	Обновляет предварительный просмотр
+upload directory for pasted or dragged in images in egroupware vfs (filemanager).	wiki	ru	Каталог для загрузки вставленных или перетащенных изображений в файловом менеджере EGroupware.
 url of the upload directory	admin	ru	URL каталога выгрузки
 use this module for displaying wiki-pages	wiki	ru	Используйте этот модуль для просмотра страниц Вики
 users	wiki	ru	пользователи

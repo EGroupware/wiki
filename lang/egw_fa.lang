@@ -3,7 +3,6 @@
 add document to category	wiki	fa	افزودن توضیحات به دسته
 added	wiki	fa	افزوده شد
 administration features are disabled for this wiki.	wiki	fa	قابلیتهای مدیریت برای این ویکی غیر فعال است
-admins	wiki	fa	مدیران
 after how many days should old versions of a page be removed (0 for never)	admin	fa	بعد از چند روز نسخه های قدیمی صفحات باید برداشته شوند( صفر برای هیچوقت)
 allow anonymous access	admin	fa	اجازه به دسترسی بی نام
 anonymous password	admin	fa	گذرواژه بی نام

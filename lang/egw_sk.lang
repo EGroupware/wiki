@@ -3,7 +3,6 @@
 add document to category	wiki	sk	Pridať dokument do kategórie
 added	wiki	sk	Pridané
 administration features are disabled for this wiki.	wiki	sk	Správcovské funkcie sú zakázané pre túto wiki.
-admins	wiki	sk	Správcovia
 after how many days should old versions of a page be removed (0 for never)	admin	sk	Po koľkých dňoch treba odstrániť staré verzie stránky (0 pre nikdy)
 allow anonymous access	admin	sk	Povoliť anonymný prístup
 allow creating new pages (blank for all)	wiki	sk	Povoliť vytváranie nových stránok (prázdne pre všetky)
@@ -55,6 +54,8 @@ history lists	wiki	sk	Zoznamy histórie
 history of	wiki	sk	História (čoho)
 if a page i have read access to is changed, send a notification	wiki	sk	Ak sa zmení stránka, ku ktorej mám právo čítať, poslať pripomienku
 if a page i have write access to is changed, send a notification	wiki	sk	Ak sa zmení stránka, ku ktorej mám právo zápisu, poslať pripomienku
+if a page title matches this regular expression, send a notification.  you can look at title, name, lang, text using name: regex	wiki	sk	Ak názov stránky zodpovedá tomuto regulárnemu výrazu, odošlite oznámenie.  Môžete sa pozrieť na názov, meno, jazyk, text pomocou vzorca name:<br />Príklady:<br />Zhoda mena: „name: Manual“ zodpovedá každej stránke, ktorej názov obsahuje slovo Manual.  „name: ^Manual“ zodpovedá každej stránke, ktorej názov <em>začína</em> slovom Manual, ale nie OperationsManual.  „name: InfoLog|Addressbook“ zodpovedá každej stránke, ktorej názov obsahuje InfoLog alebo Addressbook.  <br />Zhoda jazyka: „lang: en|de“ zodpovedá anglickým a nemeckým stránkam.  <br />Pokročilé (regex): „text: \b(word1|word2|word3)(?:\W+\w+){1,6}?\W+(word1|word2|word3)\b“ zodpovedá každej stránke, kde sú ktorékoľvek z 3 slov od seba vzdialené 1 až 6 slov.
+interwikiprefix	admin	sk	InterWikiPrefix
 invalid page name.	wiki	sk	Chybný názov stránky.
 load	wiki	sk	Načítať
 loads the named page in the given language, all change so far get lost !!!	wiki	sk	Načíta pomenovanú stránku v zadanom jazyku, všetky doterajšie zmeny sa stratia !!!

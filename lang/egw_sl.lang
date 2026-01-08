@@ -3,9 +3,9 @@
 add document to category	wiki	sl	Dodaj dokument v kategorijo
 added	wiki	sl	Dodan
 administration features are disabled for this wiki.	wiki	sl	Oskrbnikove možnosti so v tem wikiju onemogočene.
-admins	wiki	sl	oskrbniki
 after how many days should old versions of a page be removed (0 for never)	admin	sl	Po kolikih dneh se starejše različice strani odstranijo (0 za nikoli)
 allow anonymous access	admin	sl	dovoli anonimni dostop
+allow creating new pages (blank for all)	wiki	sl	Dovoli ustvarjanje novih strani (prazno za vse)
 anonymous password	admin	sl	Geslo za anonimni dostop
 anonymous session type	admin	sl	Tip anonimnih sej
 anonymous username	admin	sl	Uporabniško ime za anonimni dostop
@@ -14,6 +14,7 @@ block	wiki	sl	Blokiraj
 block / unblock hosts	common	sl	Blokiraj / deblokiraj strežnike
 blocked ip address ranges	wiki	sl	Blokirane IP maske
 cancel without saving	wiki	sl	Prekini brez shranjevanja
+change notification	wiki	sl	Obvestilo o spremembah
 changed	wiki	sl	Spremenjeno
 changes by last author	wiki	sl	Spremembe zadnjega avtorja
 choose your current time here, so the server may figure out what time zone you are in.	wiki	sl	Izberite svoj trenutni čas, da bo strežnik lahko ugotovil vaš časovni pas.
@@ -21,6 +22,10 @@ columns	wiki	sl	Stolpci
 compute difference	wiki	sl	Poišči razlike
 converts the page to richtext	wiki	sl	Prevede stran v obogateno besedilo
 current version	wiki	sl	Trenutna različica
+default read permission	wiki	sl	Privzeta pravica za branje
+default read permissions for creating a new page	preferences	sl	Privzeta pravica za branje za ustvarjanje nove strani
+default write permission	preferences	sl	Privzeta pravica za pisanje
+default write permissions for creating a new page	preferences	sl	Privzeta pravica za pisanje za ustvarjanje nove strani
 deleted	wiki	sl	Izbrisano
 deletes this page	wiki	sl	Izbriši to stran
 difference between versions	wiki	sl	Razlika med različicami
@@ -47,12 +52,16 @@ history	wiki	sl	zgodovina
 history display should show <em>all</em> changes made by the latest author.  otherwise, show only the last change made.	wiki	sl	Prikaz zgodovine naj pokaže <em>vse</em> spremembe, ki jih je naredil zadnji avtor. Sicer se pokaže le zadnja sprememba.
 history lists	wiki	sl	Seznam zgodovine
 history of	wiki	sl	Zgodovina za
+if a page i have read access to is changed, send a notification	wiki	sl	Če se stran, do katere imam dostop za branje, spremeni, pošlji obvestilo
+if a page i have write access to is changed, send a notification	wiki	sl	Če se stran, do katere imam dostop za pisanje, spremeni, pošlji obvestilo
+if a page title matches this regular expression, send a notification.  you can look at title, name, lang, text using name: regex	wiki	sl	Če naslov strani ustreza temu rednemu izrazu, pošljite obvestilo.  Ogledate si lahko naslov, ime, jezik, besedilo z uporabo vzorca ime:<br />Primeri:<br />Ujemanje imena: „ime: Priročnik“ ustreza vsaki strani, ki ima v imenu besedo Priročnik.  „name: ^Manual“ se ujema z vsako stranjo, katere ime se <em>začne</em> z Manual, vendar ne z OperationsManual.  „name: InfoLog|Addressbook“ se ujema z vsako stranjo, katere ime vsebuje InfoLog ali Addressbook.  <br />Ujemanje jezika: „lang: en|de“ se ujema z angleškimi in nemškimi stranmi.  <br />Napredno (regex): »text: \b(word1|word2|word3)(?:\W+\w+){1,6}?\W+(word1|word2|word3)\b« se ujema s katero koli stranjo, kjer je katero koli od 3 besed oddaljeno 1 do 6 besed.
 interwikiprefix	admin	sl	InternaWikiPredpona
 invalid page name.	wiki	sl	Neveljavno ime strani.
 load	wiki	sl	Naloži
 loads the named page in the given language, all change so far get lost !!!	wiki	sl	Naloži imenovano stran v danem jeziku, vse dosedanje spremembe se <em>izgubijo</em>.
 lock / unlock pages	common	sl	Zakleni / Odkleni strani
 locked	wiki	sl	Zaklenjeno
+message to send	wiki	sl	Sporočilo za pošiljanje
 name wiki home link	admin	sl	ime začetne Wiki povezave
 newer	wiki	sl	Novejši
 no never	admin	sl	Ne, nikoli
@@ -64,14 +73,17 @@ only if browser supports a richtext-editor	admin	sl	Le, če brskalnik podpira ur
 only on the first page	wiki	sl	Samo na prvi strani
 page '%1' not found !!!	wiki	sl	Stran '%1' ni bila najdena!
 page content	wiki	sl	Vsebina strani
-path of the upload directory (has to be writable by the webserver!)	admin	sl	Mapa za nalaganje (spletni strežnika mora imeti pravico pisanja)
-picture upload via richtext editor (leave the upload directory empty to disable the upload)	admin	sl	Nalaganje slik z obogatenim urejevalnikom (pustite prazno če želite onemogočiti nalaganje)
+pages i have read access	wiki	sl	Strani, do katerih imam dostop za branje
+pages i have write access	wiki	sl	Strani, do katerih imam dostop za pisanje
+pages that match this regular expression	wiki	sl	Strani, ki ustrezajo temu rednemu izrazu
+person who changed the page	wiki	sl	Oseba, ki je spremenila stran
 please contact the %1administrator%2 for assistance.	wiki	sl	Prosim, posvetujte se z %1oskrbnikom%2.
 preview	wiki	sl	Predogled
 preview of current version	wiki	sl	Predogled trenutne različice
 rate control / ip blocking disabled	wiki	sl	Onemogočen nadzor ocenjevanja in blokada IPjev
 readable by	wiki	sl	Berljivo za
 readonly	admin	sl	le za branje
+rebuild links	wiki	sl	Ponovno zgradi povezave
 recent changes	wiki	sl	Zadnje spremembe
 renames page to the given name and language	wiki	sl	Preimenuje stran v dano ime in jezik
 richtext	wiki	sl	Obogateno besedilo
@@ -89,6 +101,7 @@ this page can not be edited.	wiki	sl	Te strani ni mogoče urejati.
 twin pages	wiki	sl	Dvojne strani
 unblock	wiki	sl	Deblokiraj
 updates the preview	wiki	sl	Osveži predogled
+upload directory for pasted or dragged in images in egroupware vfs (filemanager).	wiki	sl	Naložite imenik za prilepjene ali povlečene slike v EGroupware File Manager.
 url of the upload directory	admin	sl	URL mape za nalaganje
 use this module for displaying wiki-pages	wiki	sl	Ta modul uporabite za prikaz strani wiki.
 users	wiki	sl	uporabniki

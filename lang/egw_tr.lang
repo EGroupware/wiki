@@ -1,4 +1,22 @@
 added	wiki	tr	Eklendi
-admins	wiki	tr	Yöneticiler
+allow creating new pages (blank for all)	wiki	tr	Yeni sayfalar oluşturmaya izin ver (hepsi için boş)
+change notification	wiki	tr	Değişiklik bildirimi
+default read permission	wiki	tr	Varsayılan okuma izni
+default read permissions for creating a new page	preferences	tr	Yeni sayfa oluşturmak için varsayılan okuma izinleri
+default write permission	preferences	tr	Varsayılan yazma izni
+default write permissions for creating a new page	preferences	tr	Yeni sayfa oluşturmak için varsayılan yazma izinleri
 deleted	wiki	tr	Silindi
+difference between versions	wiki	tr	Sürümler arasındaki fark
+if a page i have read access to is changed, send a notification	wiki	tr	Okuma erişimim olan bir sayfa değiştirilirse, bildirim gönder
+if a page i have write access to is changed, send a notification	wiki	tr	Yazma erişimim olan bir sayfa değiştirilirse, bildirim gönder
+if a page title matches this regular expression, send a notification.  you can look at title, name, lang, text using name: regex	wiki	tr	Bir sayfa başlığı bu düzenli ifadeyle eşleşirse, bir bildirim gönderin.  Başlık, ad, dil ve metni name: pattern kullanarak inceleyebilirsiniz.  Örnekler:  Bir adla eşleşme: “name: Manual” adı Manual olan her sayfayla eşleşir.  “name: ^Manual” adı Manual ile <em>başlayan</em>, ancak OperationsManual ile başlamayan her sayfayla eşleşir.  “name: InfoLog|Addressbook” adı InfoLog veya Addressbook içeren her sayfayla eşleşir.  <br />Dil eşleşmesi: “lang: en|de” İngilizce ve Almanca sayfalarla eşleşir.  <br />Gelişmiş (regex): “text: \b(word1|word2|word3)(?:\W+\w+){1,6}?\W+(word1|word2|word3)\b” 3 kelimeden herhangi birinin 1 ila 6 kelime aralıklarla yer aldığı tüm sayfaları eşleştirir.
 load	wiki	tr	Yükle
+message to send	wiki	tr	Gönderilecek mesaj
+page content	wiki	tr	Sayfa içeriği
+pages i have read access	wiki	tr	Okuma erişimim olan sayfalar
+pages i have write access	wiki	tr	Yazma erişimim olan sayfalar
+pages that match this regular expression	wiki	tr	Bu düzenli ifadeyle eşleşen sayfalar
+person who changed the page	wiki	tr	Sayfayı değiştiren kişi
+rebuild links	wiki	tr	Bağlantıları yeniden oluştur
+upload directory for pasted or dragged in images in egroupware vfs (filemanager).	wiki	tr	EGroupware Dosya Yöneticisi'nde yapıştırılan veya sürüklenen resimler için yükleme dizini.
+yes with navbar	admin	tr	Evet, gezinme çubuğu ile
