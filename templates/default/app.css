@@ -6,6 +6,13 @@ div.wikipage {
 	height: 100%;
 }
 
+body {
+	overflow-y: auto;
+}
+et2-ai.et2-ai--has-html-target {
+	height: 75vh;
+}
+
 table.diff { 
 	width: 95%; 
 }

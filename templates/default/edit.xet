@@ -3,15 +3,15 @@
 <!-- $Id$ -->
 <overlay>
 	<template id="wiki.edit" template="" lang="" group="0" version="1.9.001">
-		<grid width="100%">
+		<grid width="100%" height="100%">
 			<columns>
-				<column/>
+				<column width="150"/>
 				<column/>
 			</columns>
 			<rows>
 				<row class="th">
 					<description value="Name"/>
-					<hbox options="0">
+					<hbox>
 						<textbox id="name" size="60"/>
 						<select label="Lang" id="lang" no_lang="1"/>
 						<button statustext="Loads the named page in the given language, all change so far get lost !!!" label="Load" id="action[load]" class="leftpadding5"/>
@@ -20,7 +20,7 @@
 				</row>
 				<row class="row" valign="top">
 					<description value="Title"/>
-					<hbox options="0">
+					<hbox>
 						<textbox statustext="different languages can have different titles" id="title" size="60"/>
 						<description value="Writable by" class="leftpadding5"/>
 						<select-account statustext="who should be able to edit this page" id="writable" onchange="app.wiki.onchange_acl" no_lang="1" multiple="true" tags="true" account_type="groups" width="150px"/>
