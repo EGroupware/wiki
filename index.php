@@ -57,7 +57,11 @@ $goto = 'wiki.wiki_ui.view';
 if (!empty($_REQUEST['menuaction']))
 {
 	$buff = explode('.',$_REQUEST['menuaction']);
-	if ($buff[0]=='wiki' && method_exists($buff[1],$buff[2]))// if wiki and method exists, allow to go there
+	// the app-prefix check alone is NOT a security boundary (any menuaction with app-part "wiki"
+	// passes it, regardless of which class/method it names) - restrict dispatch to wiki_ui's own
+	// public entry points, mirroring its $public_functions allowlist
+	if ($buff[0] === 'wiki' && $buff[1] === 'wiki_ui' &&
+		in_array($buff[2] ?? '', ['edit', 'view', 'search'], true))
 	{
 		  $goto = implode('.',$buff);
 	}
