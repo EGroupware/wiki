@@ -433,7 +433,10 @@ class wiki_so	// DB-Layer
 		$this->wiki_id = (int) $wiki_id;
 		$this->user_lang = $GLOBALS['egw_info']['user']['preferences']['common']['lang'];
 
+		// this old, deprecated, never-audited app still builds raw SQL fragments the legacy way
+		// throughout - opt out of Db\SqlFragment enforcement rather than chasing every site
 		$this->db = clone($GLOBALS['egw']->db);
+		$this->db->requireSqlFragmentObjects(false);
 		$this->db->set_app('wiki');
 
 		global $ExpireLen,$Admin;		// this should come from the app-config later
